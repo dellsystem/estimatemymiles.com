@@ -14,6 +14,9 @@ class Airline(models.Model):
     alliance = models.ForeignKey(Alliance)
     ff_program = models.CharField(max_length=100, help_text="The name of the "
         "frequent flyer program associated with this airline.")
+    qualifying_miles_name = models.CharField(max_length=100, help_text="e.g., "
+        "'Altitude' for Air Canada. Leave empty if none.", null=True,
+        blank=True)
 
     def __unicode__(self):
         return self.name
@@ -39,7 +42,13 @@ class MileageMultiplier(models.Model):
     minimum_miles = models.IntegerField(default=0)
     fare_name = models.CharField(max_length=100, help_text="The human-readable "
         "name for the fare class, according to the earning airline. E.g., "
-        "'Economy class' or 'Business class'.")
+        "'Economy class' or 'Business class'.", null=True, blank=True)
+    qualifying_miles = models.IntegerField(help_text="As a percentage. Leave "
+        "empty if the airline doesn't have a special elite program (e.g., "
+        "Aegean).", blank=True, null=True)
+    qualifying_segments = models.DecimalField(max_digits=2, decimal_places=1,
+        help_text="Usually 1. Leave empty if the airline doesn't have a "
+        "special elite program (e.g., Aegean).", blank=True, null=True)
 
     def __unicode__(self):
         return "%s, earning with %s (%d%%)" % (self.fare_class,
