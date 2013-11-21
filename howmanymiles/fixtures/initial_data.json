@@ -25,6 +25,7 @@
     "model": "howmanymiles.airline", 
     "fields": {
         "alliance": 1, 
+        "qualifying_miles_name": "Altitude", 
         "name": "Air Canada", 
         "ff_program": "Aeroplan"
     }
@@ -34,6 +35,7 @@
     "model": "howmanymiles.airline", 
     "fields": {
         "alliance": 1, 
+        "qualifying_miles_name": null, 
         "name": "Aegean", 
         "ff_program": "Miles&Bonus"
     }
@@ -43,6 +45,7 @@
     "model": "howmanymiles.airline", 
     "fields": {
         "alliance": 1, 
+        "qualifying_miles_name": null, 
         "name": "Brussels Airlines", 
         "ff_program": "idk"
     }
@@ -52,6 +55,7 @@
     "model": "howmanymiles.airline", 
     "fields": {
         "alliance": 1, 
+        "qualifying_miles_name": "Premier", 
         "name": "United Airlines", 
         "ff_program": "MileagePlus"
     }
@@ -605,7 +609,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 1, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -617,7 +623,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 2, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -629,7 +637,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 3, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -641,7 +651,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 4, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -653,7 +665,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 5, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Class", 
         "accrual_factor": 150, 
         "earning_airline": "AG", 
@@ -665,7 +679,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 6, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Class", 
         "accrual_factor": 150, 
         "earning_airline": "AG", 
@@ -677,7 +693,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 7, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -689,7 +707,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 8, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -701,7 +721,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 9, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -713,7 +735,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 10, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -725,7 +749,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 11, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -737,7 +763,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 12, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -749,7 +777,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 13, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -761,7 +791,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 14, 
+        "qualifying_miles": null, 
         "fare_name": "Premium Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -773,7 +805,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 15, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -785,7 +819,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 16, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -797,7 +833,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Not within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 18, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -809,7 +847,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Not within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 19, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -821,7 +861,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Not within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 20, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -833,7 +875,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Not within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 21, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -845,7 +889,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Not within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 22, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -857,7 +903,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 18, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -869,7 +917,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 19, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -881,7 +931,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 20, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -893,7 +945,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 21, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -905,7 +959,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada", 
+        "qualifying_segments": null, 
         "fare_class": 22, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -917,7 +973,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 23, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -929,7 +987,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 24, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -941,7 +1001,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 25, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -953,7 +1015,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 26, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -965,7 +1029,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 17, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -977,7 +1043,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 27, 
+        "qualifying_miles": null, 
         "fare_name": "First Class", 
         "accrual_factor": 300, 
         "earning_airline": "AG", 
@@ -989,7 +1057,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 28, 
+        "qualifying_miles": null, 
         "fare_name": "First Class", 
         "accrual_factor": 300, 
         "earning_airline": "AG", 
@@ -1001,7 +1071,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 29, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -1013,7 +1085,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 30, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -1025,7 +1099,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 31, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -1037,7 +1113,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 32, 
+        "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
         "earning_airline": "AG", 
@@ -1049,7 +1127,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 33, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Class", 
         "accrual_factor": 150, 
         "earning_airline": "AG", 
@@ -1061,7 +1141,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 34, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -1073,7 +1155,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 35, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -1085,7 +1169,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 36, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -1097,7 +1183,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 37, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -1109,7 +1197,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 38, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -1121,7 +1211,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 39, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -1133,7 +1225,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 40, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
         "earning_airline": "AG", 
@@ -1145,7 +1239,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 41, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -1157,7 +1253,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 42, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -1169,7 +1267,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 43, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -1181,7 +1281,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 44, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -1193,7 +1295,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 45, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -1205,7 +1309,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 46, 
+        "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
         "earning_airline": "AG", 
@@ -1217,7 +1323,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 47, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -1229,7 +1337,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 48, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -1241,7 +1351,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 49, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -1253,7 +1365,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 50, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -1265,7 +1379,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 51, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -1277,7 +1393,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": null, 
+        "qualifying_segments": null, 
         "fare_class": 52, 
+        "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
         "earning_airline": "AG", 
@@ -1289,7 +1407,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "3-cabin Global First", 
+        "qualifying_segments": "1.5", 
         "fare_class": 27, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 250, 
         "earning_airline": "UA", 
@@ -1301,7 +1421,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "3-cabin Global First", 
+        "qualifying_segments": "1.5", 
         "fare_class": 28, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 250, 
         "earning_airline": "UA", 
@@ -1313,7 +1435,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Anything other than 3-cabin Global First", 
+        "qualifying_segments": "1.5", 
         "fare_class": 27, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 175, 
         "earning_airline": "UA", 
@@ -1325,7 +1449,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Anything other than 3-cabin Global First", 
+        "qualifying_segments": "1.5", 
         "fare_class": 28, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 175, 
         "earning_airline": "UA", 
@@ -1337,7 +1463,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1.5", 
         "fare_class": 29, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 175, 
         "earning_airline": "UA", 
@@ -1349,7 +1477,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1.5", 
         "fare_class": 30, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 175, 
         "earning_airline": "UA", 
@@ -1361,7 +1491,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1.5", 
         "fare_class": 31, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 175, 
         "earning_airline": "UA", 
@@ -1373,7 +1505,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1.5", 
         "fare_class": 32, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 150, 
         "earning_airline": "UA", 
@@ -1385,7 +1519,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1.5", 
         "fare_class": 52, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 150, 
         "earning_airline": "UA", 
@@ -1397,7 +1533,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1.5", 
         "fare_class": 33, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 125, 
         "earning_airline": "UA", 
@@ -1409,7 +1547,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1.5", 
         "fare_class": 34, 
+        "qualifying_miles": 150, 
         "fare_name": "", 
         "accrual_factor": 125, 
         "earning_airline": "UA", 
@@ -1421,7 +1561,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 35, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1433,7 +1575,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 36, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1445,7 +1589,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 37, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1457,7 +1603,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 38, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1469,7 +1617,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 39, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1481,7 +1631,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 40, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1493,7 +1645,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 41, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1505,7 +1659,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 42, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1517,7 +1673,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 43, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1529,7 +1687,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 44, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1541,7 +1701,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 45, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1553,7 +1715,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 46, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1565,7 +1729,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": "1", 
         "fare_class": 51, 
+        "qualifying_miles": 100, 
         "fare_name": "", 
         "accrual_factor": 100, 
         "earning_airline": "UA", 
@@ -1577,7 +1743,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 53, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1589,7 +1757,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 54, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1601,7 +1771,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 55, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1613,7 +1785,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 56, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1625,7 +1799,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 53, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1637,7 +1813,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 54, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1649,7 +1827,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 55, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1661,7 +1841,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 56, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1673,7 +1855,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 57, 
+        "qualifying_miles": null, 
         "fare_name": "Business", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1685,7 +1869,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 58, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1697,7 +1883,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 59, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1709,7 +1897,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 58, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1721,7 +1911,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 59, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1733,7 +1925,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 60, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1745,7 +1939,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 61, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1757,7 +1953,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 62, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1769,7 +1967,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 63, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 50, 
         "earning_airline": "AC", 
@@ -1781,7 +1981,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "After January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 64, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 50, 
         "earning_airline": "AC", 
@@ -1793,7 +1995,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 63, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1805,7 +2009,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Before January 1, 2014.", 
+        "qualifying_segments": null, 
         "fare_class": 64, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1817,7 +2023,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 65, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 50, 
         "earning_airline": "AC", 
@@ -1829,7 +2037,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 66, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 50, 
         "earning_airline": "AC", 
@@ -1841,7 +2051,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 67, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 50, 
         "earning_airline": "AC", 
@@ -1853,7 +2065,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "", 
+        "qualifying_segments": null, 
         "fare_class": 68, 
+        "qualifying_miles": null, 
         "fare_name": "Economy", 
         "accrual_factor": 50, 
         "earning_airline": "AC", 
@@ -1865,7 +2079,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 1, 
+        "qualifying_miles": 150, 
         "fare_name": "Executive Class Flexible", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1877,7 +2093,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 2, 
+        "qualifying_miles": 150, 
         "fare_name": "Executive Class Flexible", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1889,7 +2107,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 3, 
+        "qualifying_miles": 150, 
         "fare_name": "Executive Class Lowest", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1901,7 +2121,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 4, 
+        "qualifying_miles": 150, 
         "fare_name": "Executive Class Lowest", 
         "accrual_factor": 150, 
         "earning_airline": "AC", 
@@ -1913,7 +2135,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 5, 
+        "qualifying_miles": 125, 
         "fare_name": "Latitude", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1925,7 +2149,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 6, 
+        "qualifying_miles": 125, 
         "fare_name": "Latitude", 
         "accrual_factor": 125, 
         "earning_airline": "AC", 
@@ -1937,7 +2163,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 7, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1949,7 +2177,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 8, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1961,7 +2191,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 9, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1973,7 +2205,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 10, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1985,7 +2219,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 11, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -1997,7 +2233,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 12, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -2009,7 +2247,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 13, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -2021,7 +2261,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 16, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -2033,7 +2275,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 15, 
+        "qualifying_miles": 100, 
         "fare_name": "Flex", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
@@ -2045,7 +2289,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 18, 
+        "qualifying_miles": 25, 
         "fare_name": "Tango", 
         "accrual_factor": 25, 
         "earning_airline": "AC", 
@@ -2057,7 +2303,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 19, 
+        "qualifying_miles": 25, 
         "fare_name": "Tango", 
         "accrual_factor": 25, 
         "earning_airline": "AC", 
@@ -2069,7 +2317,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 20, 
+        "qualifying_miles": 25, 
         "fare_name": "Tango", 
         "accrual_factor": 25, 
         "earning_airline": "AC", 
@@ -2081,7 +2331,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 21, 
+        "qualifying_miles": 25, 
         "fare_name": "Tango", 
         "accrual_factor": 25, 
         "earning_airline": "AC", 
@@ -2093,7 +2345,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 22, 
+        "qualifying_miles": 25, 
         "fare_name": "Tango", 
         "accrual_factor": 25, 
         "earning_airline": "AC", 
@@ -2105,7 +2359,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
         "fare_class": 17, 
+        "qualifying_miles": 25, 
         "fare_name": "Tango", 
         "accrual_factor": 25, 
         "earning_airline": "AC", 
@@ -2117,7 +2373,9 @@
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
         "restrictions": "Within Canada or between Canada and the US, and booked before September 24, 2013.", 
+        "qualifying_segments": "1", 
         "fare_class": 17, 
+        "qualifying_miles": 100, 
         "fare_name": "Tango", 
         "accrual_factor": 100, 
         "earning_airline": "AC", 
