@@ -10,3 +10,6 @@ def load():
 def dump():
     local("python manage.py dumpdata --format=json --indent=4 howmanymiles"
         " > howmanymiles/fixtures/mileage_data.json")
+
+def test():
+    local("python manage.py test howmanymiles")

@@ -1,0 +1,124 @@
+[
+{
+    "pk": 1, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "DA", 
+        "class_code": "A"
+    }
+},
+{
+    "pk": 2, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "DA", 
+        "class_code": "B"
+    }
+},
+{
+    "pk": 3, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "SJ", 
+        "class_code": "C"
+    }
+},
+{
+    "pk": 1, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "Only if you're especially sleazy.", 
+        "qualifying_segments": "1", 
+        "fare_class": 3, 
+        "qualifying_miles": 25, 
+        "fare_name": "Sleazy", 
+        "accrual_factor": 50, 
+        "earning_airline": "SJ", 
+        "minimum_miles": 15
+    }
+},
+{
+    "pk": 2, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "If you're only moderately sleazy.", 
+        "qualifying_segments": "1", 
+        "fare_class": 3, 
+        "qualifying_miles": 50, 
+        "fare_name": "Sleazy", 
+        "accrual_factor": 50, 
+        "earning_airline": "SJ", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 3, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 1, 
+        "qualifying_miles": 100, 
+        "fare_name": "Undivided attention", 
+        "accrual_factor": 100, 
+        "earning_airline": "DA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 4, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 1, 
+        "qualifying_miles": 50, 
+        "fare_name": "", 
+        "accrual_factor": 50, 
+        "earning_airline": "SJ", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 5, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 2, 
+        "qualifying_miles": 25, 
+        "fare_name": "terrible", 
+        "accrual_factor": 25, 
+        "earning_airline": "SJ", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 6, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 2, 
+        "qualifying_miles": 25, 
+        "fare_name": "Salsa", 
+        "accrual_factor": 25, 
+        "earning_airline": "DA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 7, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 3, 
+        "qualifying_miles": 100, 
+        "fare_name": "", 
+        "accrual_factor": 150, 
+        "earning_airline": "DA", 
+        "minimum_miles": 0
+    }
+}
+]

@@ -1,0 +1,29 @@
+[
+{
+    "pk": 1, 
+    "model": "howmanymiles.alliance", 
+    "fields": {
+        "name": "Fake Alliance"
+    }
+},
+{
+    "pk": "SJ", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "Sleaziness", 
+        "name": "SleazyJet", 
+        "ff_program": "SleazeMiles"
+    }
+},
+{
+    "pk": "DA", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "Dividend", 
+        "name": "Divided Airlines", 
+        "ff_program": "MileageMinus"
+    }
+}
+]
