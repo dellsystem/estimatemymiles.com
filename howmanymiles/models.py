@@ -61,3 +61,7 @@ class MileageMultiplier(models.Model):
         return "%s, earning with %s (%d%%)" % (self.fare_class,
                                                self.earning_airline,
                                                self.accrual_factor)
+
+    def get_num_miles(self, base_miles, is_qualifying=False):
+        factor = self.qualifying_miles if is_qualifying else self.accrual_factor
+        return max(base_miles * factor / 100.0, self.minimum_miles)
