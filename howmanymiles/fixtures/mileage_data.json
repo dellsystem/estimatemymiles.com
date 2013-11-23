@@ -41,6 +41,186 @@
     }
 },
 {
+    "pk": "AV", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "Elite", 
+        "name": "Avianca", 
+        "ff_program": "LifeMiles"
+    }
+},
+{
+    "pk": "BR", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "Tier", 
+        "name": "EVA Air", 
+        "ff_program": "Infinity MileageLands"
+    }
+},
+{
+    "pk": "CA", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "Elite", 
+        "name": "Air China", 
+        "ff_program": "Phoenix Miles"
+    }
+},
+{
+    "pk": "CM", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Copa Airlines", 
+        "ff_program": "MileagePlus"
+    }
+},
+{
+    "pk": "ET", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Ethiopian Airlines", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "JJ", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "TAM Airlines", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "JP", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Adria Airways", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "LH", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Lufthansa", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "LO", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "LOT Polish Airlines", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "LX", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "SWISS", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "MS", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "EGYPTAIR", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "NH", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "ANA", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "NZ", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Air New Zealand", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "OS", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Austrian", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "OU", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Croatia Airlines", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "OZ", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Asiana Airlines", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "SA", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "South African Airways", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "SK", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Scandinavian Airlines", 
+        "ff_program": ""
+    }
+},
+{
     "pk": "SN", 
     "model": "howmanymiles.airline", 
     "fields": {
@@ -51,6 +231,46 @@
     }
 },
 {
+    "pk": "SQ", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Singapore Airlines", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "TG", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "THAI", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "TK", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Turkish Airlines", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "TP", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "TAP Portugal", 
+        "ff_program": ""
+    }
+},
+{
     "pk": "UA", 
     "model": "howmanymiles.airline", 
     "fields": {
@@ -58,6 +278,26 @@
         "qualifying_miles_name": "Premier", 
         "name": "United Airlines", 
         "ff_program": "MileagePlus"
+    }
+},
+{
+    "pk": "US", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "US Airways", 
+        "ff_program": ""
+    }
+},
+{
+    "pk": "ZH", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Shenzhen Airlines", 
+        "ff_program": ""
     }
 },
 {
