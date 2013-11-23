@@ -11,7 +11,7 @@ class Alliance(models.Model):
 class Airline(models.Model):
     name = models.CharField(max_length=100)
     short_code = models.CharField(max_length=2, primary_key=True)
-    alliance = models.ForeignKey(Alliance)
+    alliance = models.ForeignKey(Alliance, null=True, blank=True)
     ff_program = models.CharField(max_length=100, help_text="The name of the "
         "frequent flyer program associated with this airline.")
     qualifying_miles_name = models.CharField(max_length=100, help_text="e.g., "
