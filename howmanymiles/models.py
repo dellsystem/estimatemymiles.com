@@ -21,6 +21,13 @@ class Airline(models.Model):
     def __unicode__(self):
         return self.name
 
+    def get_qualifying_miles_name(self):
+        return "%s Qualifying Miles (%sQM)" % (self.qualifying_miles_name,
+            self.qualifying_miles_name[0].upper())
+
+    def get_qualifying_segments_name(self):
+        return "%s Qualifying Segments (%sQS)" % (self.qualifying_miles_name,
+            self.qualifying_miles_name[0].upper())
 
 class FareClass(models.Model):
     airline = models.ForeignKey(Airline)
