@@ -1,11 +1,16 @@
+from django.conf import settings
 from django.db import models
 
 
 class Alliance(models.Model):
     name = models.CharField(max_length=100)
+    slug = models.SlugField()
 
     def __unicode__(self):
         return self.name
+
+    def get_image_url(self):
+        return settings.STATIC_URL + 'img/alliance/' + self.slug + '.png'
 
 
 class Airline(models.Model):
@@ -28,6 +33,7 @@ class Airline(models.Model):
     def get_qualifying_segments_name(self):
         return "%s Qualifying Segments (%sQS)" % (self.qualifying_miles_name,
             self.qualifying_miles_name[0].upper())
+
 
 class FareClass(models.Model):
     airline = models.ForeignKey(Airline)

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How many miles will I get?</title>
+    </head>
+    <body>
+        {% for alliance in alliances %}
+        <img src="{{ alliance.get_image_url }}" />
+        {% endfor %}
+    </body>
+</html>
