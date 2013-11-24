@@ -13,3 +13,6 @@ def dump():
 
 def test():
     local("python manage.py test howmanymiles")
+
+def sync():
+    local("python manage.py syncdb")
