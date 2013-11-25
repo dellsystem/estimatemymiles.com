@@ -848,6 +848,214 @@
     }
 },
 {
+    "pk": 69, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "F"
+    }
+},
+{
+    "pk": 70, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "A"
+    }
+},
+{
+    "pk": 71, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "J"
+    }
+},
+{
+    "pk": 72, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "C"
+    }
+},
+{
+    "pk": 73, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "D"
+    }
+},
+{
+    "pk": 74, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "Z"
+    }
+},
+{
+    "pk": 75, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "P"
+    }
+},
+{
+    "pk": 76, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "Y"
+    }
+},
+{
+    "pk": 77, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "B"
+    }
+},
+{
+    "pk": 78, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "Q"
+    }
+},
+{
+    "pk": 79, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "U"
+    }
+},
+{
+    "pk": 80, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "W"
+    }
+},
+{
+    "pk": 81, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "M"
+    }
+},
+{
+    "pk": 82, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "V"
+    }
+},
+{
+    "pk": 83, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "G"
+    }
+},
+{
+    "pk": 84, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "H"
+    }
+},
+{
+    "pk": 85, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "S"
+    }
+},
+{
+    "pk": 86, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "T"
+    }
+},
+{
+    "pk": 87, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "E"
+    }
+},
+{
+    "pk": 88, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "K"
+    }
+},
+{
+    "pk": 89, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "L"
+    }
+},
+{
+    "pk": 90, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "O"
+    }
+},
+{
+    "pk": 91, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "I"
+    }
+},
+{
+    "pk": 92, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "R"
+    }
+},
+{
+    "pk": 93, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "X"
+    }
+},
+{
+    "pk": 94, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "airline": "LX", 
+        "class_code": "N"
+    }
+},
+{
     "pk": 1, 
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
@@ -3099,6 +3307,636 @@
         "accrual_factor": 25, 
         "earning_airline": "UA", 
         "minimum_miles": 125
+    }
+},
+{
+    "pk": 164, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 69, 
+        "qualifying_miles": 150, 
+        "fare_name": "First", 
+        "accrual_factor": 250, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 165, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 70, 
+        "qualifying_miles": 150, 
+        "fare_name": "First", 
+        "accrual_factor": 250, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 166, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 71, 
+        "qualifying_miles": 150, 
+        "fare_name": "Business", 
+        "accrual_factor": 175, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 167, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 72, 
+        "qualifying_miles": 150, 
+        "fare_name": "Business", 
+        "accrual_factor": 175, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 168, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 73, 
+        "qualifying_miles": 150, 
+        "fare_name": "Business", 
+        "accrual_factor": 175, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 169, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 74, 
+        "qualifying_miles": 150, 
+        "fare_name": "Business", 
+        "accrual_factor": 175, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 170, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 75, 
+        "qualifying_miles": 150, 
+        "fare_name": "Discount Business", 
+        "accrual_factor": 150, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 171, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 76, 
+        "qualifying_miles": 150, 
+        "fare_name": "Full-Fare Economy", 
+        "accrual_factor": 125, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 172, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 77, 
+        "qualifying_miles": 150, 
+        "fare_name": "Full-Fare Economy", 
+        "accrual_factor": 125, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 173, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 78, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 174, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 79, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 175, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 80, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 176, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 81, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 177, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 82, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 178, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 83, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 179, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 84, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 180, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 85, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 181, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 86, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 182, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 87, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 183, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 69, 
+        "qualifying_miles": null, 
+        "fare_name": "First Class", 
+        "accrual_factor": 300, 
+        "earning_airline": "A3", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 184, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 70, 
+        "qualifying_miles": null, 
+        "fare_name": "First Class", 
+        "accrual_factor": 300, 
+        "earning_airline": "A3", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 185, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 71, 
+        "qualifying_miles": null, 
+        "fare_name": "Business Class", 
+        "accrual_factor": 200, 
+        "earning_airline": "A3", 
+        "minimum_miles": 1000
+    }
+},
+{
+    "pk": 186, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 72, 
+        "qualifying_miles": null, 
+        "fare_name": "Business Class", 
+        "accrual_factor": 200, 
+        "earning_airline": "A3", 
+        "minimum_miles": 1000
+    }
+},
+{
+    "pk": 187, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 73, 
+        "qualifying_miles": null, 
+        "fare_name": "Business Class", 
+        "accrual_factor": 200, 
+        "earning_airline": "A3", 
+        "minimum_miles": 1000
+    }
+},
+{
+    "pk": 188, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 74, 
+        "qualifying_miles": null, 
+        "fare_name": "Business Class", 
+        "accrual_factor": 200, 
+        "earning_airline": "A3", 
+        "minimum_miles": 1000
+    }
+},
+{
+    "pk": 189, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 75, 
+        "qualifying_miles": null, 
+        "fare_name": "Business Class", 
+        "accrual_factor": 200, 
+        "earning_airline": "A3", 
+        "minimum_miles": 1000
+    }
+},
+{
+    "pk": 190, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 76, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Class", 
+        "accrual_factor": 150, 
+        "earning_airline": "A3", 
+        "minimum_miles": 750
+    }
+},
+{
+    "pk": 191, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 77, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Class", 
+        "accrual_factor": 150, 
+        "earning_airline": "A3", 
+        "minimum_miles": 750
+    }
+},
+{
+    "pk": 192, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 81, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 193, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 79, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 194, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 84, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 195, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 82, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 196, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 78, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 197, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 85, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 198, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 80, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 199, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 83, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 100, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 200, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 86, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 50, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 201, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 87, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 50, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 202, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 88, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 50, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 203, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 89, 
+        "qualifying_miles": null, 
+        "fare_name": "Economy Discounted", 
+        "accrual_factor": 50, 
+        "earning_airline": "A3", 
+        "minimum_miles": 500
+    }
+},
+{
+    "pk": 204, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 90, 
+        "qualifying_miles": null, 
+        "fare_name": "Not Eligible", 
+        "accrual_factor": 0, 
+        "earning_airline": "A3", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 205, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 91, 
+        "qualifying_miles": null, 
+        "fare_name": "Not Eligible", 
+        "accrual_factor": 0, 
+        "earning_airline": "A3", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 206, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 92, 
+        "qualifying_miles": null, 
+        "fare_name": "Not Eligible", 
+        "accrual_factor": 0, 
+        "earning_airline": "A3", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 207, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 93, 
+        "qualifying_miles": null, 
+        "fare_name": "Not Eligible", 
+        "accrual_factor": 0, 
+        "earning_airline": "A3", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 208, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": null, 
+        "fare_class": 94, 
+        "qualifying_miles": null, 
+        "fare_name": "Not Eligible", 
+        "accrual_factor": 0, 
+        "earning_airline": "A3", 
+        "minimum_miles": 0
     }
 }
 ]
