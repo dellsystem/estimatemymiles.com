@@ -24,6 +24,16 @@
     }
 },
 {
+    "pk": "A3", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "alliance": 1, 
+        "qualifying_miles_name": "", 
+        "name": "Aegean", 
+        "ff_program": "Miles&Bonus"
+    }
+},
+{
     "pk": "AC", 
     "model": "howmanymiles.airline", 
     "fields": {
@@ -31,16 +41,6 @@
         "qualifying_miles_name": "Altitude", 
         "name": "Air Canada", 
         "ff_program": "Aeroplan"
-    }
-},
-{
-    "pk": "AG", 
-    "model": "howmanymiles.airline", 
-    "fields": {
-        "alliance": 1, 
-        "qualifying_miles_name": null, 
-        "name": "Aegean", 
-        "ff_program": "Miles&Bonus"
     }
 },
 {
@@ -857,7 +857,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -871,7 +871,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -885,7 +885,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -899,7 +899,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -913,7 +913,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Class", 
         "accrual_factor": 150, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 750
     }
 },
@@ -927,7 +927,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Class", 
         "accrual_factor": 150, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 750
     }
 },
@@ -941,7 +941,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -955,7 +955,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -969,7 +969,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -983,7 +983,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -997,7 +997,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1011,7 +1011,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1025,7 +1025,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1039,7 +1039,7 @@
         "qualifying_miles": null, 
         "fare_name": "Premium Economy", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1053,7 +1053,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1067,7 +1067,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1081,7 +1081,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1095,7 +1095,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1109,7 +1109,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1123,7 +1123,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1137,7 +1137,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1151,7 +1151,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1165,7 +1165,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1179,7 +1179,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1193,7 +1193,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1207,7 +1207,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1221,7 +1221,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1235,7 +1235,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1249,7 +1249,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1263,7 +1263,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1277,7 +1277,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 250
     }
 },
@@ -1291,7 +1291,7 @@
         "qualifying_miles": null, 
         "fare_name": "First Class", 
         "accrual_factor": 300, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1500
     }
 },
@@ -1305,7 +1305,7 @@
         "qualifying_miles": null, 
         "fare_name": "First Class", 
         "accrual_factor": 300, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1500
     }
 },
@@ -1319,7 +1319,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -1333,7 +1333,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -1347,7 +1347,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -1361,7 +1361,7 @@
         "qualifying_miles": null, 
         "fare_name": "Business Class", 
         "accrual_factor": 200, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 1000
     }
 },
@@ -1375,7 +1375,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Class", 
         "accrual_factor": 150, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 750
     }
 },
@@ -1389,7 +1389,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1403,7 +1403,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1417,7 +1417,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1431,7 +1431,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1445,7 +1445,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1459,7 +1459,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1473,7 +1473,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 100, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1487,7 +1487,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1501,7 +1501,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1515,7 +1515,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1529,7 +1529,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1543,7 +1543,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1557,7 +1557,7 @@
         "qualifying_miles": null, 
         "fare_name": "Economy Discounted", 
         "accrual_factor": 50, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 500
     }
 },
@@ -1571,7 +1571,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1585,7 +1585,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1599,7 +1599,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1613,7 +1613,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1627,7 +1627,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
@@ -1641,7 +1641,7 @@
         "qualifying_miles": null, 
         "fare_name": "Not Eligible", 
         "accrual_factor": 0, 
-        "earning_airline": "AG", 
+        "earning_airline": "A3", 
         "minimum_miles": 0
     }
 },
