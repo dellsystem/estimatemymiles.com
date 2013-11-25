@@ -1,12 +1,12 @@
 from django.shortcuts import render
 
-from howmanymiles.models import Alliance
+from howmanymiles.models import Airline
 
 
 def home(request):
-    alliances = Alliance.objects.all()
+    airlines = Airline.objects.get_traveling()
     context = {
-        'alliances': alliances,
+        'airlines': airlines,
     }
 
     return render(request, 'home.html', context)

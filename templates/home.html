@@ -1,5 +1,45 @@
 {% extends "base.html" %}
 
+{% block js %}<script src="{{ STATIC_URL }}js/stuff.js"></script>{% endblock %}
+
 {% block content %}
-Which airline?
+<form id="estimator">
+    <div id="traveling-airline">
+        <h2>The airline I'm traveling with is ...</h2>
+        <ul class="airline-grid">
+            {% for airline in airlines %}
+            <li data-airline="{{ airline.pk }}">
+                <img src="{{ airline.get_image_url }}" alt="{{ airline }}"
+                     title="{{ airline }}" />
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div id="fare-class" class="hidden">
+        <h2>The fare class is ...</h2>
+        <ul></ul>
+    </div>
+
+    <div id="earning-airline" class="hidden">
+        <h2>My frequent flyer program options are ...</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Earning airline</th>
+                    <th>Frequent flyer program</th>
+                    <th>Fare name</th>
+                    <th>Miles earned</th>
+                    <th>Minimum miles</th>
+                    <th>Qualifying miles</th>
+                    <th>Qualifying segments</th>
+                    <th>Restrictions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>test</td></tr>
+            </tbody>
+        </table>
+    </div>
+</form>
 {% endblock %}

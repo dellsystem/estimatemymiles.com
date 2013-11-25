@@ -2,12 +2,15 @@
 <html>
     <head>
         <title>How many miles will I get?</title>
+        <link href="{{ STATIC_URL }}css/chosen.min.css" rel="stylesheet"
+              type="text/css" />
         <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro"
               rel="stylesheet" type="text/css" />
         <link rel="stylesheet/less" type="text/css"
               href="{{ STATIC_URL }}css/styles.less" />
         <script src="{{ STATIC_URL }}js/less.min.js"></script>
-
+        <script src="{{ STATIC_URL }}js/jquery.min.js"></script>
+        {% block js %}{% endblock %}
     </head>
     <body>
         <div id="header">

@@ -13,7 +13,18 @@ class Alliance(models.Model):
         return settings.STATIC_URL + 'img/alliance/' + self.slug + '.png'
 
 
+class AirlineManager(models.Manager):
+    def get_traveling(self):
+        """
+        Returns all airlines with associated fare classes (which are associated
+        with MileageMultiplier objects).
+        """
+        return self.annotate(num=models.Count('fareclass')) \
+            .filter(num__gt=0)
+
+
 class Airline(models.Model):
+    objects = AirlineManager()
     name = models.CharField(max_length=100)
     short_code = models.CharField(max_length=2, primary_key=True)
     alliance = models.ForeignKey(Alliance, null=True, blank=True)
@@ -24,7 +35,7 @@ class Airline(models.Model):
         blank=True)
 
     def __unicode__(self):
-        return self.name
+        return "%s (%s)" % (self.name, self.short_code)
 
     def get_qualifying_miles_name(self):
         return "%s Qualifying Miles (%sQM)" % (self.qualifying_miles_name,
@@ -33,6 +44,9 @@ class Airline(models.Model):
     def get_qualifying_segments_name(self):
         return "%s Qualifying Segments (%sQS)" % (self.qualifying_miles_name,
             self.qualifying_miles_name[0].upper())
+
+    def get_image_url(self):
+        return settings.STATIC_URL + 'img/airline/' + self.pk + '.png'
 
 
 class FareClass(models.Model):
@@ -71,3 +85,20 @@ class MileageMultiplier(models.Model):
     def get_num_miles(self, base_miles, is_qualifying=False):
         factor = self.qualifying_miles if is_qualifying else self.accrual_factor
         return max(base_miles * factor / 100.0, self.minimum_miles)
+
+    def get_qualifying_miles(self):
+        if self.qualifying_miles is not None:
+            return "%d%% %s" % (self.qualifying_miles,
+                self.earning_airline.get_qualifying_miles_name())
+        else:
+            return 'N/A'
+
+    def get_qualifying_segments(self):
+        if self.qualifying_segments is not None:
+            return "%s %s" % (self.qualifying_segments,
+                self.earning_airline.get_qualifying_segments_name())
+        else:
+            return 'N/A'
+
+    def get_accrual_factor(self):
+        return "%d%%" % self.accrual_factor

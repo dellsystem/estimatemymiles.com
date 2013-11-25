@@ -1,0 +1,79 @@
+p {
+    padding: 10px 0;
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.3em;
+    margin: 25px 0;
+}
+
+#estimator {
+    text-align: center;
+
+    .chosen-container {
+        text-align: left;
+    }
+}
+
+.grid(@width) {
+    list-style-type: none;
+
+    li {
+        cursor: pointer;
+        box-sizing: border-box;
+        text-align: center;
+        display: inline-block;
+        height: @gridHeight;
+        border: 5px solid @lightGrey;
+        line-height: @gridHeight - 10px;
+        vertical-align: bottom;
+        width: @width;
+        margin: 10px;
+
+        img {
+            vertical-align: middle;
+        }
+
+        &:hover {
+            border-color: @mediumGrey;
+        }
+
+        &.selected {
+            border-color: @lightBlue;
+        }
+    }
+}
+
+.airline-grid {
+    .grid(230px);
+}
+
+#fare-class ul {
+    .grid(@gridHeight);
+}
+
+table {
+    border: 3px solid @lightGrey;
+
+    th, td {
+        padding: 5px;
+    }
+
+    th, td {
+        border-bottom: 1px solid @lightGrey;
+    }
+
+    tr:last-child td {
+        border-width: 0;
+    }
+}
