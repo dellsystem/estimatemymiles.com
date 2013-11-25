@@ -16,3 +16,6 @@ def test():
 
 def sync():
     local("python manage.py syncdb")
+
+def add():
+    local("python manage.py add_mileage_multiplier")
