@@ -6,30 +6,18 @@
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
-    background: @lightBlue;
+    background: @white;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 17px;
     color: @darkGrey;
 }
 
-// No idea what this is doing ... sticky footer hacks
-#wrapper {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -@footerHeight;
+#header {
+    background: @lightBlue;
 }
 
-#push {
-    height: @footerHeight;
-}
-
-#container {
+.container {
     width: 1000px;
     margin: 0 auto;
 }
@@ -65,13 +53,17 @@ body {
     }
 }
 
+#clouds {
+    height: @cloudsHeight;
+
+    img {
+        width: 100%;
+        height: @cloudsHeight;
+    }
+}
+
 #content {
-    width: 100%;
     background: @white;
-    box-sizing: border-box;
-    padding: 30px;
-    margin: 30px 0;
-    .border-radius(5px);
 
     p {
         padding: 10px 0;
@@ -88,20 +80,6 @@ body {
 
 #footer {
     width: 100%;
-    height: @footerHeight;
-    position: relative;
-
-    img {
-        width: 100%;
-        height: @footerHeight;
-    }
-
-    p {
-        display: none;
-        width: 100%;
-        text-align: center;
-        color: @mediumGrey;
-        position: absolute;
-        bottom: 30px;
-    }
+    text-align: center;
+    color: @mediumGrey;
 }
