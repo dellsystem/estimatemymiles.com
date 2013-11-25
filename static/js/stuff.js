@@ -52,9 +52,7 @@ $(document).ready(function () {
                 }
 
                 tableHTML.push('<tr><td rowspan="' + numMileages + '">' +
-                    airline.name + '</td>' +
-                    '<td rowspan="' + numMileages + '">' +
-                    airline.ff_program + '</td>' + rowHTML[0] +'</tr>');
+                    airline.program + '</td>' + rowHTML[0] +'</tr>');
                 for (k = 1; k < numMileages; k++) {
                     tableHTML.push('<tr>' + rowHTML[k] + '</tr>');
                 }

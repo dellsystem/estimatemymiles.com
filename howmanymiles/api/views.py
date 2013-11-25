@@ -26,8 +26,7 @@ def mileages(request, fareclass_pk):
 
         if airline.pk not in airlines:
             airlines[airline.pk] = {
-                'name': str(airline),
-                'ff_program': airline.ff_program,
+                'program': '%s %s' % (airline.name, airline.ff_program),
                 'mileages': []
             }
 
