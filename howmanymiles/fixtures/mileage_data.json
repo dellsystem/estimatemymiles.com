@@ -3,7 +3,7 @@
     "pk": 1, 
     "model": "howmanymiles.alliance", 
     "fields": {
-        "name": "Star Alliance",
+        "name": "Star Alliance", 
         "slug": "staralliance"
     }
 },
@@ -11,7 +11,7 @@
     "pk": 2, 
     "model": "howmanymiles.alliance", 
     "fields": {
-        "name": "OneWorld",
+        "name": "OneWorld", 
         "slug": "oneworld"
     }
 },
@@ -19,7 +19,7 @@
     "pk": 3, 
     "model": "howmanymiles.alliance", 
     "fields": {
-        "name": "SkyTeam",
+        "name": "SkyTeam", 
         "slug": "skyteam"
     }
 },
@@ -2623,6 +2623,482 @@
         "accrual_factor": 100, 
         "earning_airline": "AC", 
         "minimum_miles": 0
+    }
+},
+{
+    "pk": 130, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 1, 
+        "qualifying_miles": 150, 
+        "fare_name": "Executive Class", 
+        "accrual_factor": 175, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 131, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 2, 
+        "qualifying_miles": 150, 
+        "fare_name": "Executive Class", 
+        "accrual_factor": 175, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 132, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 3, 
+        "qualifying_miles": 150, 
+        "fare_name": "Executive Class", 
+        "accrual_factor": 175, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 133, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 4, 
+        "qualifying_miles": 150, 
+        "fare_name": "Discount Executive Class", 
+        "accrual_factor": 150, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 134, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 14, 
+        "qualifying_miles": 150, 
+        "fare_name": "Premium Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 135, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 5, 
+        "qualifying_miles": 150, 
+        "fare_name": "Full Fare Economy", 
+        "accrual_factor": 125, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 136, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1.5", 
+        "fare_class": 6, 
+        "qualifying_miles": 150, 
+        "fare_name": "Full Fare Economy", 
+        "accrual_factor": 125, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 137, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 7, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 138, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 9, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 139, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 10, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 140, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 8, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 141, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 11, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 142, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 12, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 143, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 13, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 144, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 15, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 145, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 16, 
+        "qualifying_miles": 100, 
+        "fare_name": "Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 146, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 17, 
+        "qualifying_miles": 100, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 147, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 18, 
+        "qualifying_miles": 100, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 148, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 19, 
+        "qualifying_miles": 100, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 149, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 20, 
+        "qualifying_miles": 100, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 150, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 21, 
+        "qualifying_miles": 100, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 151, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "", 
+        "qualifying_segments": "1", 
+        "fare_class": 22, 
+        "qualifying_miles": 100, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 100, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 152, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "For flights on/after October 1, 2013, either within Canada or between Canada and the US, Central America, Mexico, or the Caribbean.", 
+        "qualifying_segments": "0", 
+        "fare_class": 17, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 153, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "For flights on/after October 1, 2013, either within Canada or between Canada and the US, Central America, Mexico, or the Caribbean.", 
+        "qualifying_segments": "0", 
+        "fare_class": 18, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 154, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "For flights on/after October 1, 2013, either within Canada or between Canada and the US, Central America, Mexico, or the Caribbean.", 
+        "qualifying_segments": "0", 
+        "fare_class": 19, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 155, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "For flights on/after October 1, 2013, either within Canada or between Canada and the US, Central America, Mexico, or the Caribbean.", 
+        "qualifying_segments": "0", 
+        "fare_class": 20, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 156, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "For flights on/after October 1, 2013, either within Canada or between Canada and the US, Central America, Mexico, or the Caribbean.", 
+        "qualifying_segments": "0", 
+        "fare_class": 21, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 157, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "For flights on/after October 1, 2013, either within Canada or between Canada and the US, Central America, Mexico, or the Caribbean.", 
+        "qualifying_segments": "0", 
+        "fare_class": 22, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 0
+    }
+},
+{
+    "pk": 158, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "Premier members only.", 
+        "qualifying_segments": "0", 
+        "fare_class": 17, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 125
+    }
+},
+{
+    "pk": 159, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "Premier members only.", 
+        "qualifying_segments": "0", 
+        "fare_class": 18, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 125
+    }
+},
+{
+    "pk": 160, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "Premier members only.", 
+        "qualifying_segments": "0", 
+        "fare_class": 19, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 125
+    }
+},
+{
+    "pk": 161, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "Premier members only.", 
+        "qualifying_segments": "0", 
+        "fare_class": 20, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 125
+    }
+},
+{
+    "pk": 162, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "Premier members only.", 
+        "qualifying_segments": "0", 
+        "fare_class": 21, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 125
+    }
+},
+{
+    "pk": 163, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "restrictions": "Premier members only.", 
+        "qualifying_segments": "0", 
+        "fare_class": 22, 
+        "qualifying_miles": 25, 
+        "fare_name": "Discount Economy", 
+        "accrual_factor": 25, 
+        "earning_airline": "UA", 
+        "minimum_miles": 125
     }
 }
 ]
