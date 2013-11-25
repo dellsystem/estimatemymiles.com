@@ -25,6 +25,13 @@ class Command(BaseCommand):
                                         "(e.g., 100): ")
             minimum_miles = raw_input("Enter the minimum number of miles "
                                       "earned for this fare class: ")
+            if earning_airline.qualifying_miles_name is not None:
+                qualifying_miles = raw_input("Enter the qualifying miles, as "
+                                             "a percentage but without the % "
+                                             "sign: ")
+                qualifying_segments = raw_input("Enter the number of "
+                                                "qualifying segments: ")
+
             restrictions = raw_input("Enter restrictions for this fare class, "
                                      "if any: ").strip()
 
@@ -43,6 +50,12 @@ class Command(BaseCommand):
                     accrual_factor=int(accrual_factor),
                     minimum_miles=int(minimum_miles),
                     fare_name=fare_name.strip())
+
+                # Only save qualifying info if the airline has such a thing
+                if earning_airline.qualifying_miles_name:
+                    multipier.qualifying_miles = int(qualifying_miles)
+                    multiplier.qualifying_segments = float(qualifying_segments)
+
                 multipliers.append(multiplier)
 
             write("Done! Created %d multipliers:" % len(multipliers))
