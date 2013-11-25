@@ -7,12 +7,10 @@
     <div id="traveling-airline">
         <h2>The airline I'm traveling with is ...</h2>
         <ul class="airline-grid">
-            {% for airline in airlines %}
-            <li data-airline="{{ airline.pk }}">
+            {% for airline in traveling_airlines %}<li data-airline="{{ airline.pk }}">
                 <img src="{{ airline.get_image_url }}" alt="{{ airline }}"
                      title="{{ airline }}" />
-            </li>
-            {% endfor %}
+            </li>{% endfor %}
         </ul>
     </div>
 
@@ -22,21 +20,32 @@
     </div>
 
     <div id="earning-airline" class="hidden">
-        <h2>My frequent flyer program options are ...</h2>
+        <h2>The airline I want to earn with is ...</h2>
+        <ul class="airline-grid">
+            {% for airline in all_airlines %}<li data-airline="{{ airline.pk }}">
+                <img src="{{ airline.get_image_url }}" alt="{{ airline }}"
+                     title="{{ airline }}" />
+            </li>{% endfor %}
+        </ul>
+    </div>
+
+    <div id="mileage-table" class="hidden">
+        <h2>
+            Mileage earning rules for
+            <span id="frequent-flyer-program"></span>:
+        </h2>
         <table>
             <thead>
                 <tr>
-                    <th>Program</th>
                     <th>Fare name</th>
                     <th>Miles earned</th>
                     <th>Minimum miles</th>
-                    <th>Qualifying miles</th>
-                    <th>Qualifying segments</th>
+                    <th id="qualifying-miles"></th>
+                    <th id="qualifying-segments"></th>
                     <th>Restrictions</th>
                 </tr>
             </thead>
             <tbody>
-                <tr><td>test</td></tr>
             </tbody>
         </table>
     </div>

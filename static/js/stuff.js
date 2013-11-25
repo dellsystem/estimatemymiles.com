@@ -1,6 +1,8 @@
 $(document).ready(function () {
     $('#traveling-airline').delegate('li', 'click', function () {
-        $('#fare-class').hide();
+        $('#fare-class,#earning-airline,#mileage-table').hide();
+        $('#fare-class .selected,#earning-airline .selected').removeClass(
+            'selected');
         $('#earning-airline').hide();
 
         var airline = $(this).data('airline');
@@ -21,45 +23,74 @@ $(document).ready(function () {
 
             $('#fare-class ul').html(gridHTML.join(''));
 
-            $('#fare-class').slideDown();
+            $('#fare-class').slideDown(200, function () {
+                $.scrollTo('#fare-class', 300);
+            });
         });
     });
 
+    var mileageData;
+
     $('#fare-class').delegate('li', 'click', function () {
-        $('#earning-airline').hide();
+        $('#earning-airline,#mileage-table').hide();
         var fareClass = $(this).data('pk');
         $('#fare-class .selected').removeClass('selected');
+        $('#earning-airline .selected').removeClass('selected');
         $(this).addClass('selected');
 
+        // Hide the airlines that we can't earn with
+        var listItems = $('#earning-airline li');
+        listItems.hide();
+
         $.get('/api/mileages/' + fareClass + '/', function (airlines) {
-            var i, airline, mileages, numMileages, rowHTML, j, mileage, k;
-            var tableHTML = [];
+            var pk, airline;
 
-            for (i in airlines) {
-                airline = airlines[i];
-                mileages = airline.mileages;
-                numMileages = mileages.length;
-                rowHTML = [];
+            for (pk in airlines) {
+                airline = airlines[pk];
 
-                for (j in mileages) {
-                    mileage = mileages[j];
-                    rowHTML.push('<td>' + mileage.fare_name + '</td>' +
-                        '<td>' + mileage.accrual_factor + '</td>' +
-                        '<td>' + mileage.minimum_miles + '</td>' +
-                        '<td>' + mileage.qualifying_miles + '</td>' +
-                        '<td>' + mileage.qualifying_segments + '</td>' +
-                        '<td>' + mileage.restrictions + '</td>');
-                }
-
-                tableHTML.push('<tr><td rowspan="' + numMileages + '">' +
-                    airline.program + '</td>' + rowHTML[0] +'</tr>');
-                for (k = 1; k < numMileages; k++) {
-                    tableHTML.push('<tr>' + rowHTML[k] + '</tr>');
-                }
+                // Show this airline
+                listItems.filter('[data-airline="' + pk + '"]').show();
             }
-            $('#earning-airline tbody').html(tableHTML.join(''));
 
-            $('#earning-airline').slideDown();
+            mileageData = airlines;
+
+            $('#earning-airline').slideDown(200, function () {
+                $.scrollTo('#earning-airline', 300);
+            });
+        });
+    });
+
+    $('#earning-airline').delegate('li', 'click', function () {
+        $('#mileage-table').hide();
+        var pk = $(this).data('airline');
+        $('#earning-airline .selected').removeClass('selected');
+        $(this).addClass('selected');
+
+        var airline = mileageData[pk];
+
+        // Edit the h2
+        $('#frequent-flyer-program').text(airline.program);
+
+        // Fill in the table
+        $('#qualifying-miles').text(airline.qualifying_miles);
+        $('#qualifying-segments').text(airline.qualifying_segments);
+        var i, mileage;
+        var tableHTML = [];
+        var mileages = airline.mileages;
+        for (i in mileages) {
+            mileage = mileages[i];
+            tableHTML.push('<tr><td>' + mileage.fare_name + '</td>' +
+                '<td>' + mileage.accrual_factor + '</td>' +
+                '<td>' + mileage.minimum_miles + '</td>' +
+                '<td>' + mileage.qualifying_miles + '</td>' +
+                '<td>' + mileage.qualifying_segments + '</td>' +
+                '<td>' + mileage.restrictions + '</td></tr>');
+        }
+        $('#mileage-table tbody').html(tableHTML.join(''));
+
+        // Show the table
+        $('#mileage-table').slideDown(200, function () {
+            $.scrollTo('#mileage-table', 300);
         });
     });
 });

@@ -38,12 +38,19 @@ class Airline(models.Model):
         return "%s (%s)" % (self.name, self.short_code)
 
     def get_qualifying_miles_name(self):
-        return "%s Qualifying Miles (%sQM)" % (self.qualifying_miles_name,
-            self.qualifying_miles_name[0].upper())
+        if self.qualifying_miles_name:
+            return "%s Qualifying Miles (%sQM)" % (self.qualifying_miles_name,
+                self.qualifying_miles_name[0].upper())
+        else:
+            return "No qualifying miles"
 
     def get_qualifying_segments_name(self):
-        return "%s Qualifying Segments (%sQS)" % (self.qualifying_miles_name,
-            self.qualifying_miles_name[0].upper())
+        if self.qualifying_miles_name:
+            return "%s Qualifying Segments (%sQS)" % (
+                self.qualifying_miles_name,
+                self.qualifying_miles_name[0].upper())
+        else:
+            return "No qualifying segments"
 
     def get_image_url(self):
         return settings.STATIC_URL + 'img/airline/' + self.pk + '.png'
@@ -88,15 +95,13 @@ class MileageMultiplier(models.Model):
 
     def get_qualifying_miles(self):
         if self.qualifying_miles is not None:
-            return "%d%% %s" % (self.qualifying_miles,
-                self.earning_airline.get_qualifying_miles_name())
+            return "%d%%" % self.qualifying_miles,
         else:
             return 'N/A'
 
     def get_qualifying_segments(self):
         if self.qualifying_segments is not None:
-            return "%s %s" % (self.qualifying_segments,
-                self.earning_airline.get_qualifying_segments_name())
+            return str(self.qualifying_segments)
         else:
             return 'N/A'
 

@@ -26,12 +26,14 @@ def mileages(request, fareclass_pk):
 
         if airline.pk not in airlines:
             airlines[airline.pk] = {
+                'qualifying_segments': airline.get_qualifying_segments_name(),
+                'qualifying_miles': airline.get_qualifying_miles_name(),
                 'program': '%s %s' % (airline.name, airline.ff_program),
                 'mileages': []
             }
 
         airlines[airline.pk]['mileages'].append({
-            'restrictions': mileage.restrictions,
+            'restrictions': mileage.restrictions or 'N/A',
             'fare_name': mileage.fare_name,
             'qualifying_miles': mileage.get_qualifying_miles(),
             'qualifying_segments': mileage.get_qualifying_segments(),
