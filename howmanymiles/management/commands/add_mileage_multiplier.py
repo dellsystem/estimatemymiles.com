@@ -48,13 +48,14 @@ class Command(BaseCommand):
                     fare_class=fare_class,
                     restrictions=restrictions,
                     accrual_factor=int(accrual_factor),
-                    minimum_miles=int(minimum_miles),
+                    minimum_miles=int(minimum_miles) if minimum_miles else 0,
                     fare_name=fare_name.strip())
 
                 # Only save qualifying info if the airline has such a thing
                 if earning_airline.qualifying_miles_name:
-                    multipier.qualifying_miles = int(qualifying_miles)
+                    multiplier.qualifying_miles = int(qualifying_miles)
                     multiplier.qualifying_segments = float(qualifying_segments)
+                    multiplier.save()
 
                 multipliers.append(multiplier)
 
