@@ -16,8 +16,8 @@
                 <ul id="menu">
                     <li><a href="{% url 'home' %}">home</a></li>
                     <li><a href="{% url 'about' %}">about</a></li>
-                    <li><a href="/usage/">usage instructions</a></li>
-                    <li><a href="/contribute/">contribute</a></li>
+                    <li><a href="{% url 'usage' %}">usage instructions</a></li>
+                    <li><a href="{% url 'contribute' %}">contribute</a></li>
                 </ul>
                 <div id="branding">
                     <img src="{{ STATIC_URL }}img/logo.png" />
