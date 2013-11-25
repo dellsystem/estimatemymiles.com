@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How many miles will I get?</title>
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro"
+              rel="stylesheet" type="text/css" />
+        <link rel="stylesheet/less" type="text/css"
+              href="{{ STATIC_URL }}css/styles.less" />
+        <script src="{{ STATIC_URL }}js/less.min.js"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <ul id="menu">
+                    <li><a href="{% url 'home' %}">home</a></li>
+                    <li><a href="{% url 'about' %}">about</a></li>
+                    <li><a href="/usage/">usage instructions</a></li>
+                    <li><a href="/contribute/">contribute</a></li>
+                </ul>
+                <div id="branding">
+                    <img src="{{ STATIC_URL }}img/logo.png" />
+                    <p class="slogan">
+                        helping you make the most of your frequent flyer miles
+                    </p>
+                </div>
+            </div>
+            <div id="clouds">
+                <img src="{{ STATIC_URL }}img/clouds.png" />
+            </div>
+        </div>
+        <div id="content">
+            <div class="container">
+                {% block content %}{% endblock %}
+            </div>
+            <div id="footer">
+                <p>
+                    built by
+                    <a href="https://twitter.com/dellsystem">dellsystem</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
+
