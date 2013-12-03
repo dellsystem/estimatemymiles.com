@@ -1,6 +1,47 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Progress for {{ operating }}</h1>
-<h2>Earning with {{ earning }}</h2>
+<h1>Details for {{ operating }}
+<br />
+<small>Earning with {{ earning }}</small></h1>
+{% for fare_class in fare_classes %}
+<h2>Fare class {{ fare_class.class_code }}</h2>
+
+{% with multipliers=fare_class.multipliers %}
+{% if multipliers.count %}
+<table>
+    <thead>
+        <tr>
+            <th width="15%">Fare name</th>
+            <th width="10%">Start date</th>
+            <th width="10%">End date</th>
+            <th width="10%">Base multiplier</th>
+            <th width="10%">Minimum miles</th>
+            {% if earning.qualifying_miles_name %}
+            <th width="10%">Qualifying multiplier</th>
+            <th width="10%">Qualifying segments</th>
+            {% endif %}
+            <th width="10%">Requires elite status</th>
+            <th>Other restrictions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for multiplier in multipliers.all %}
+            <tr>
+                <th>{{ multiplier.fare_name }}</th>
+                <td>{{ multiplier.start_date|default:"--" }}</td>
+                <td>{{ multiplier.end_date|default:"--" }}</td>
+                <td>{{ multiplier.base_multiplier }}%</td>
+                <td>{{ multiplier.minimum_miles|default:"--" }}</td>
+                <td>{{ multiplier.only_elites|yesno|capfirst }}</td>
+                <td class="preserve-breaks">{{ multiplier.other_restrictions|default:"--" }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No multiplier information for this fare class.</p>
+{% endif %}
+{% endwith %}
+{% endfor %}
 {% endblock %}
