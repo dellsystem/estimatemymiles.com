@@ -5,6 +5,7 @@ from howmanymiles.models import Alliance, Airline, FareClass, MileageMultiplier
 
 class MileageMultiplierInline(admin.StackedInline):
     model = MileageMultiplier
+    extra = 0
 
 
 class FareClassAdmin(admin.ModelAdmin):
