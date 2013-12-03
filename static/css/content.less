@@ -69,6 +69,7 @@ h2 {
 table {
     width: 100%;
     border: 3px solid @lightGrey;
+    text-align: center;
 
     th, td {
         padding: 5px;
@@ -80,5 +81,39 @@ table {
 
     tr:last-child td {
         border-width: 0;
+    }
+
+    &.progress  {
+        .done {
+            background: @green;
+            &:hover {
+                background: @lightGreen;
+            }
+        }
+
+        .some {
+            background: @yellow;
+            &:hover {
+                background: @lightYellow;
+            }
+        }
+
+        .none {
+            background: @red;
+            &:hover {
+                background: @lightRed;
+            }
+        }
+
+        td {
+            padding: 0 !important;
+        }
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
     }
 }
