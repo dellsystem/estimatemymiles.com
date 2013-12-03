@@ -1708,6 +1708,204 @@
     }
 },
 {
+    "pk": 166, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "J"
+    }
+},
+{
+    "pk": 167, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "C"
+    }
+},
+{
+    "pk": 168, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "D"
+    }
+},
+{
+    "pk": 169, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "Z"
+    }
+},
+{
+    "pk": 170, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "Y"
+    }
+},
+{
+    "pk": 171, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "B"
+    }
+},
+{
+    "pk": 172, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "M"
+    }
+},
+{
+    "pk": 173, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "U"
+    }
+},
+{
+    "pk": 174, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "H"
+    }
+},
+{
+    "pk": 175, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "Q"
+    }
+},
+{
+    "pk": 176, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "V"
+    }
+},
+{
+    "pk": 177, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "W"
+    }
+},
+{
+    "pk": 178, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "S"
+    }
+},
+{
+    "pk": 179, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "L"
+    }
+},
+{
+    "pk": 180, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "T"
+    }
+},
+{
+    "pk": 181, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "N"
+    }
+},
+{
+    "pk": 182, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "G"
+    }
+},
+{
+    "pk": 183, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "P"
+    }
+},
+{
+    "pk": 184, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "E"
+    }
+},
+{
+    "pk": 185, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "A"
+    }
+},
+{
+    "pk": 186, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "K"
+    }
+},
+{
+    "pk": 187, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "AC", 
+        "class_code": "O"
+    }
+},
+{
     "pk": 11, 
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
@@ -5305,6 +5503,2326 @@
         "base_multiplier": 0, 
         "minimum_miles": 0, 
         "start_date": "2012-03-15"
+    }
+},
+{
+    "pk": 248, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 166, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 249, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 167, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 250, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 168, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 251, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 169, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 252, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 170, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 253, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 171, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 254, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 172, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 255, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 173, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 256, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 174, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 257, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 175, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 258, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 176, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 259, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 177, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 260, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 178, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 261, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 179, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 262, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 180, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 263, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 181, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 25, 
+        "base_multiplier": 25, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 264, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 182, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 25, 
+        "base_multiplier": 25, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 265, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 183, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 25, 
+        "base_multiplier": 25, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 266, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 184, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 25, 
+        "base_multiplier": 25, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 267, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 185, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 25, 
+        "base_multiplier": 25, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 268, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Within Canada.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 186, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 25, 
+        "base_multiplier": 25, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 269, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\r\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 166, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 270, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\r\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 167, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 271, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 168, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 272, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 169, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 273, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 170, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 274, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 171, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 275, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 172, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 276, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 173, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 277, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 174, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 278, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 175, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 279, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 176, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 280, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 177, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 281, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 178, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 282, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 179, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 283, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 180, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 284, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 181, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 285, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 182, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 286, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 183, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 287, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 184, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 288, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 185, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 289, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 186, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 290, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 166, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 1000, 
+        "start_date": null
+    }
+},
+{
+    "pk": 291, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 167, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 1000, 
+        "start_date": null
+    }
+},
+{
+    "pk": 292, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 168, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 700, 
+        "start_date": null
+    }
+},
+{
+    "pk": 293, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 169, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 700, 
+        "start_date": null
+    }
+},
+{
+    "pk": 294, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 170, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 700, 
+        "start_date": null
+    }
+},
+{
+    "pk": 295, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 171, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 700, 
+        "start_date": null
+    }
+},
+{
+    "pk": 296, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 172, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 297, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 173, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 298, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 174, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 299, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 175, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 300, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 176, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 301, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 177, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 302, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 178, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 303, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 179, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 304, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 180, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 305, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 181, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 100, 
+        "start_date": null
+    }
+},
+{
+    "pk": 306, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 182, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 100, 
+        "start_date": null
+    }
+},
+{
+    "pk": 307, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 183, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 100, 
+        "start_date": null
+    }
+},
+{
+    "pk": 308, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 184, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 100, 
+        "start_date": null
+    }
+},
+{
+    "pk": 309, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 185, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 100, 
+        "start_date": null
+    }
+},
+{
+    "pk": 310, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the US.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 186, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 100, 
+        "start_date": null
+    }
+},
+{
+    "pk": 311, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 166, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 312, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 167, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 313, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 168, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 314, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 169, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 315, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 170, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 316, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 171, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 317, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 172, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 318, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 173, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 319, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 174, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 320, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 175, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 321, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 176, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 322, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 181, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 323, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 177, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 324, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 182, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 325, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 178, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 326, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 183, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 327, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 180, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 328, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 184, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 329, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 179, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 330, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 185, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 331, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 186, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 332, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 166, 
+        "fare_name": "Executive Class Flexible", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 2000, 
+        "start_date": null
+    }
+},
+{
+    "pk": 333, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 167, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 1400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 334, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 168, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 1400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 335, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 169, 
+        "fare_name": "Executive Class Lowest", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 1400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 336, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 170, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 1400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 337, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 171, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 1400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 338, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 172, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 339, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 173, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 340, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 174, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 341, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 175, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 342, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 176, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 343, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 181, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 344, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 177, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 345, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 182, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 346, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 178, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 347, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 183, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 348, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 180, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 349, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 184, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 350, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 179, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 351, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 185, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 352, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and the Caribbean, Mexico, and Central America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 186, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 200, 
+        "start_date": null
+    }
+},
+{
+    "pk": 353, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 166, 
+        "fare_name": "Executive First Flexible", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 354, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 167, 
+        "fare_name": "Executive First Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 355, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 168, 
+        "fare_name": "Executive First Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 356, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 169, 
+        "fare_name": "Executive First Lowest", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 357, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 187, 
+        "fare_name": "Premium Economy", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 358, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 170, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 359, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 171, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 360, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 172, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 361, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 173, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 362, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 174, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 363, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 175, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 364, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 176, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 365, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 181, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 366, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 177, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 367, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 182, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 368, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 178, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 369, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 183, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 370, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 180, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 371, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 184, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 372, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 179, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 373, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 185, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 374, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Not Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 186, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 50, 
+        "base_multiplier": 50, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 375, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 187, 
+        "fare_name": "Premium Economy", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 2800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 376, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 170, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 2800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 377, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 171, 
+        "fare_name": "Latitude", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 2800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 378, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 172, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 379, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 173, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 380, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 174, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 381, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 175, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 382, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 176, 
+        "fare_name": "Flex", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 800, 
+        "start_date": null
+    }
+},
+{
+    "pk": 383, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 181, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 384, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 177, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 385, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 182, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 386, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 178, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 387, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 183, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 388, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 180, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 389, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 184, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 390, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 179, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 391, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 185, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
+    }
+},
+{
+    "pk": 392, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "Air Canada Rouge.\nBetween Canada and Europe, Israel, Asia, Australia, and South America.", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 186, 
+        "fare_name": "Tango", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 400, 
+        "start_date": null
     }
 }
 ]
