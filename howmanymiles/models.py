@@ -78,6 +78,20 @@ class Airline(models.Model):
         return statuses
 
 
+class MileageInfoSource(models.Model):
+    operating_airline = models.ForeignKey(Airline,
+        related_name='operating_sources')
+    earning_airline = models.ForeignKey(Airline,
+        related_name='earning_sources')
+    link = models.URLField()
+
+    class Meta:
+        unique_together = ('operating_airline', 'earning_airline')
+
+    def __unicode__(self):
+        return "%s, earning with %s" % (self.operating_airline,
+            self.earning_airline)
+
 
 class FareClass(models.Model):
     operating_airline = models.ForeignKey(Airline, related_name='fare_classes')
