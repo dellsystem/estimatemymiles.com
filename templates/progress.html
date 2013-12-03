@@ -21,7 +21,7 @@
             {% for earning, status, count in operating.get_partner_statuses %}
                 <td class="{{ status }}" title="{{ count }}">
                     <a href="
-                        {% url 'progress_detail' earning.pk operating.pk %}
+                        {% url 'progress_detail' operating.pk earning.pk %}
                     ">&nbsp;</a>
                 </td>
             {% endfor %}
