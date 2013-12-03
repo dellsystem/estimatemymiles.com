@@ -74,7 +74,7 @@ class Command(BaseCommand):
 
                 # Only save qualifying info if the airline has such a thing
                 if earning_airline.qualifying_miles_name:
-                    multiplier.qualifying_miles = int(qualifying_miles)
+                    multiplier.qualifying_multiplier = int(qualifying_multiplier)
                     multiplier.qualifying_segments = float(qualifying_segments)
                     multiplier.save()
 
