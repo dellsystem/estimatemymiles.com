@@ -60,10 +60,10 @@ class Command(BaseCommand):
                 fare_class = FareClass.objects.get_or_create(
                     operating_airline=operating_airline,
                     earning_airline=earning_airline,
-                    fare_name=fare_name.strip(),
                     class_code=class_code)[0]
 
                 multiplier = MileageMultiplier.objects.create(
+                    fare_name=fare_name.strip(),
                     fare_class=fare_class,
                     base_multiplier=base_multiplier,
                     minimum_miles=minimum_miles,

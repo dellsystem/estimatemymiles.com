@@ -61,10 +61,7 @@ class Airline(models.Model):
     def get_partner_statuses(self):
         statuses = []
         for airline in self.alliance.airline_set.all():
-            count = self.fare_classes.filter(earning_airline=airline) \
-                .values('class_code') \
-                .distinct() \
-                .count()
+            count = self.fare_classes.filter(earning_airline=airline).count()
 
             if count == 26:
                 status = 'done'
@@ -97,17 +94,16 @@ class FareClass(models.Model):
     operating_airline = models.ForeignKey(Airline, related_name='fare_classes')
     class_code = models.CharField(max_length=1)
     earning_airline = models.ForeignKey(Airline, related_name='+')
-    fare_name = models.CharField(max_length=100, help_text="The human-readable "
-        "name for the fare class, according to the earning airline. E.g., "
-        "'Economy class' or 'Business class'.", null=True, blank=True)
 
     class Meta:
         ordering = ['operating_airline', 'class_code']
         verbose_name_plural = 'Fare classes'
+        unique_together = ('operating_airline', 'class_code',
+            'earning_airline')
 
     def __unicode__(self):
-        return "%s - %c (%s), earning with %s" % (self.operating_airline,
-            self.class_code, self.fare_name, self.earning_airline)
+        return "%s - %s, earning with %s" % (self.operating_airline,
+            self.class_code, self.earning_airline)
 
     def covers_non_elites(self):
         return self.multipliers.filter(only_elites=False).exists()
@@ -150,6 +146,9 @@ class MileageMultiplier(models.Model):
     only_elites = models.BooleanField(default=False, verbose_name="Only valid "
         "for elites.")
     other_restrictions = models.TextField(null=True, blank=True)
+    fare_name = models.CharField(max_length=100, help_text="The human-readable "
+        "name for the fare class, according to the earning airline. E.g., "
+        "'Economy class' or 'Business class'.", null=True, blank=True)
 
     def __unicode__(self):
         return "%s. %d%%, %d" % (self.fare_class, self.base_multiplier,
