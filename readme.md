@@ -1,4 +1,4 @@
 to do
 =====
 
-* requirements.txt (django-jsonview==0.3.0)
+* Explain what this site is about
