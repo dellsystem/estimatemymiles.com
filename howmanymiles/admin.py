@@ -9,7 +9,7 @@ class MileageMultiplierInline(admin.StackedInline):
 
 class FareClassAdmin(admin.ModelAdmin):
     inlines = [MileageMultiplierInline]
-    list_display = ('airline', 'class_code')
+    list_display = ('operating_airline', 'class_code', 'earning_airline')
 
 
 admin.site.register(Alliance)
