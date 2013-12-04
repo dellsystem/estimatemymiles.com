@@ -40,6 +40,9 @@ class Airline(models.Model):
     def __unicode__(self):
         return "%s (%s)" % (self.name, self.short_code)
 
+    def get_ff_program_name(self):
+        return "%s %s" % (self.name, self.ff_program)
+
     def get_qualifying_miles_name(self):
         if self.qualifying_miles_name:
             return "%s Qualifying Miles (%sQM)" % (self.qualifying_miles_name,

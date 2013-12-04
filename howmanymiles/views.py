@@ -1,3 +1,5 @@
+import string
+
 from django.shortcuts import render, get_object_or_404
 
 from howmanymiles.models import Airline, Alliance
@@ -29,5 +31,7 @@ def progress_detail(request, operating, earning):
         'operating': operating,
         'earning': earning,
         'fare_classes': fare_classes,
+        'class_codes': string.uppercase,
     }
+
     return render(request, 'progress_detail.html', context)

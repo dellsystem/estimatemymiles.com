@@ -1,3 +1,7 @@
+a {
+    color: @lightBlue;
+}
+
 p {
     padding: 10px 0;
 
@@ -10,15 +14,20 @@ p {
     }
 }
 
+h1, h2 {
+    small {
+        color: @mediumGrey;
+        font-size: 0.4em;
+        font-weight: normal;
+        text-transform: none;
+    }
+}
 h1 {
     text-transform: uppercase;
     font-size: 3.5em;
 
     small {
         display: block; // needed to reset the top margin to 0
-        color: @mediumGrey;
-        font-size: 0.5em;
-        font-weight: normal;
     }
 }
 

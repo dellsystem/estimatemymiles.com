@@ -1,11 +1,32 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Details for {{ operating }}
+<div class="center-align">
+    <img src="{{ operating.get_image_url }}" alt="{{ operating }}" id="top" />
+    <h1>Details for {{ operating }}
+    <br />
+    <small>Earning with {{ earning.get_ff_program_name }}</small></h1>
+
+    <br />
+
+    <p>
+        Jump to:
+        {% for class_code in class_codes %}
+        <a href="#fare-class-{{ class_code }}">{{ class_code }}</a>
+        {% if not forloop.last %}
+        /
+        {% endif %}
+        {% endfor %}
+    </p>
+</div>
+
 <br />
-<small>Earning with {{ earning }}</small></h1>
+
 {% for fare_class in fare_classes %}
-<h2>Fare class {{ fare_class.class_code }}</h2>
+<h2 id="fare-class-{{ fare_class.class_code }}">
+    Fare class {{ fare_class.class_code }}
+    <small><a href="#top">Back to top</a></small>
+</h2>
 
 {% with multipliers=fare_class.multipliers %}
 {% if multipliers.count %}
