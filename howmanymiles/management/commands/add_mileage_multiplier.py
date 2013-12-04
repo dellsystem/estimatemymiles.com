@@ -34,7 +34,10 @@ class Command(BaseCommand):
             start_date = raw_input("Start date: ")
             end_date = raw_input("End date: ")
             other_restrictions = raw_input("Other restrictions: ")
-            only_elites = raw_input("Only elites? y for yes: ")
+
+            if earning_airline.qualifying_miles_name:
+                only_elites = raw_input("Only elites? y for yes: ")
+                only_elites = 'y' in only_elites
 
             # Convert things to the right type, if necessary
             base_multiplier = int(base_multiplier)
@@ -49,8 +52,6 @@ class Command(BaseCommand):
                 end_date = datetime.strptime(end_date, DATE_FORMAT)
             else:
                 end_date = None
-
-            only_elites = 'y' in only_elites
 
             # Now process the information and add it to the database.
             multipliers = []
@@ -69,13 +70,13 @@ class Command(BaseCommand):
                     minimum_miles=minimum_miles,
                     start_date=start_date,
                     end_date=end_date,
-                    only_elites=only_elites,
                     other_restrictions=other_restrictions)
 
                 # Only save qualifying info if the airline has such a thing
                 if earning_airline.qualifying_miles_name:
                     multiplier.qualifying_multiplier = int(qualifying_multiplier)
                     multiplier.qualifying_segments = float(qualifying_segments)
+                    multiplier.only_elites = only_elites
                     multiplier.save()
 
                 multipliers.append(multiplier)
