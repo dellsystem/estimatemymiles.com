@@ -33,6 +33,8 @@ class Airline(models.Model):
     qualifying_miles_name = models.CharField(max_length=100, help_text="e.g., "
         "'Altitude' for Air Canada. Leave empty if none.", null=True,
         blank=True)
+    comments = models.TextField(blank=True, null=True, help_text="Any "
+        "additional comments about mileage accumulation with this airline.")
 
     class Meta:
         ordering = ['name']
