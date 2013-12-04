@@ -11,13 +11,13 @@
     <thead>
         <th>Operating / earning</th>
         {% for earning in airlines %}
-            <th>{{ earning.pk }}</th>
+            <th title="{{ earning.name }}">{{ earning.pk }}</th>
         {% endfor %}
     </thead>
     <tbody>
         {% for operating in airlines %}
             <tr>
-            <th>{{ operating.pk }}</th>
+            <th title="{{ operating.name }}">{{ operating.pk }}</th>
             {% for earning, status, count in operating.get_partner_statuses %}
                 <td class="{{ status }}" title="{{ count }}">
                     <a href="
