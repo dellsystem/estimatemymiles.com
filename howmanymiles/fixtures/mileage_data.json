@@ -7090,6 +7090,240 @@
     }
 },
 {
+    "pk": 764, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "F"
+    }
+},
+{
+    "pk": 765, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "A"
+    }
+},
+{
+    "pk": 766, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "J"
+    }
+},
+{
+    "pk": 767, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "C"
+    }
+},
+{
+    "pk": 768, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "D"
+    }
+},
+{
+    "pk": 769, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "Z"
+    }
+},
+{
+    "pk": 770, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "P"
+    }
+},
+{
+    "pk": 771, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "Y"
+    }
+},
+{
+    "pk": 772, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "B"
+    }
+},
+{
+    "pk": 773, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "M"
+    }
+},
+{
+    "pk": 774, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "E"
+    }
+},
+{
+    "pk": 775, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "U"
+    }
+},
+{
+    "pk": 776, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "H"
+    }
+},
+{
+    "pk": 777, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "Q"
+    }
+},
+{
+    "pk": 778, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "V"
+    }
+},
+{
+    "pk": 779, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "W"
+    }
+},
+{
+    "pk": 780, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "S"
+    }
+},
+{
+    "pk": 781, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "T"
+    }
+},
+{
+    "pk": 782, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "L"
+    }
+},
+{
+    "pk": 783, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "K"
+    }
+},
+{
+    "pk": 784, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "G"
+    }
+},
+{
+    "pk": 785, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "N"
+    }
+},
+{
+    "pk": 786, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "I"
+    }
+},
+{
+    "pk": 787, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "O"
+    }
+},
+{
+    "pk": 788, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "R"
+    }
+},
+{
+    "pk": 789, 
+    "model": "howmanymiles.fareclass", 
+    "fields": {
+        "earning_airline": "AC", 
+        "operating_airline": "UA", 
+        "class_code": "X"
+    }
+},
+{
     "pk": 11, 
     "model": "howmanymiles.mileagemultiplier", 
     "fields": {
@@ -23439,6 +23673,774 @@
         "base_multiplier": 0, 
         "minimum_miles": 0, 
         "start_date": "2013-05-27"
+    }
+},
+{
+    "pk": 1045, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 764, 
+        "fare_name": "First", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 750, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1046, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 765, 
+        "fare_name": "First", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 750, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1047, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 764, 
+        "fare_name": "First", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 375, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1048, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 765, 
+        "fare_name": "First", 
+        "qualifying_multiplier": 150, 
+        "base_multiplier": 150, 
+        "minimum_miles": 375, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1049, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 766, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 625, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1050, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 767, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 625, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1051, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 768, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 625, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1052, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 769, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 625, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1053, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 770, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 625, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1054, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 766, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 313, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1055, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 767, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 313, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1056, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 768, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 313, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1057, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 770, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 313, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1058, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 769, 
+        "fare_name": "Business", 
+        "qualifying_multiplier": 125, 
+        "base_multiplier": 125, 
+        "minimum_miles": 313, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1059, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 771, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1060, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 772, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1061, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 773, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1062, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 774, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1063, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 775, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1064, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 776, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1065, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 777, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1066, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 778, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1067, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 779, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1068, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 780, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1069, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 781, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1070, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 782, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1071, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 783, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1072, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 784, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1073, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": true, 
+        "fare_class": 785, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 500, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1074, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 771, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1075, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 772, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1076, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 773, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1077, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 774, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1078, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 775, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1079, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 776, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1080, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 777, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1081, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 778, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1082, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 779, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1083, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 780, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1084, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 781, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1085, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 782, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1086, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 783, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1087, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 784, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1088, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "1", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 785, 
+        "fare_name": "Economy", 
+        "qualifying_multiplier": 100, 
+        "base_multiplier": 100, 
+        "minimum_miles": 250, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1089, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "0", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 786, 
+        "fare_name": "Not Eligible", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1090, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "0", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 787, 
+        "fare_name": "Not Eligible", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1091, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "0", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 788, 
+        "fare_name": "Not Eligible", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 0, 
+        "start_date": null
+    }
+},
+{
+    "pk": 1092, 
+    "model": "howmanymiles.mileagemultiplier", 
+    "fields": {
+        "other_restrictions": "", 
+        "qualifying_segments": "0", 
+        "end_date": null, 
+        "only_elites": false, 
+        "fare_class": 789, 
+        "fare_name": "Not Eligible", 
+        "qualifying_multiplier": 0, 
+        "base_multiplier": 0, 
+        "minimum_miles": 0, 
+        "start_date": null
     }
 }
 ]
