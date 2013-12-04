@@ -9,7 +9,7 @@
 {% if airlines.count %}
 <table class="progress">
     <thead>
-        <th>Operating / earning</th>
+        <th>Earning&nbsp;&rarr;<br />Operating&nbsp;&darr;</th>
         {% for earning in airlines %}
             <th title="{{ earning.name }}">{{ earning.pk }}</th>
         {% endfor %}
