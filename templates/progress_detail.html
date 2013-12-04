@@ -49,7 +49,7 @@
     <tbody>
         {% for multiplier in multipliers.all %}
             <tr>
-                <th>{{ multiplier.fare_name }}</th>
+                <th>{{ multiplier.fare_name|default:"--" }}</th>
                 <td>{{ multiplier.start_date|default:"--" }}</td>
                 <td>{{ multiplier.end_date|default:"--" }}</td>
                 <td>{{ multiplier.base_multiplier }}%</td>
