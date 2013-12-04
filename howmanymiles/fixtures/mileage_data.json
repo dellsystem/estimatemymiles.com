@@ -7102,7 +7102,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 100, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7118,7 +7118,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 100, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7134,7 +7134,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 100, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7150,7 +7150,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 100, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7166,7 +7166,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 100, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7182,7 +7182,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 100, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7198,7 +7198,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 100, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7214,7 +7214,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 50, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7230,7 +7230,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 50, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7246,7 +7246,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 50, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7262,7 +7262,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 50, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7278,7 +7278,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 50, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7294,7 +7294,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 50, 
         "minimum_miles": 500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7310,7 +7310,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 0, 
         "minimum_miles": 0, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7326,7 +7326,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 0, 
         "minimum_miles": 0, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7342,7 +7342,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 0, 
         "minimum_miles": 0, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7358,7 +7358,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 0, 
         "minimum_miles": 0, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7374,7 +7374,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 0, 
         "minimum_miles": 0, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7390,7 +7390,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 0, 
         "minimum_miles": 0, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7406,7 +7406,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 200, 
         "minimum_miles": 1000, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7422,7 +7422,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 200, 
         "minimum_miles": 1000, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7438,7 +7438,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 200, 
         "minimum_miles": 1000, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7454,7 +7454,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 200, 
         "minimum_miles": 1000, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7470,7 +7470,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 300, 
         "minimum_miles": 1500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7486,7 +7486,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 300, 
         "minimum_miles": 1500, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
@@ -7502,7 +7502,7 @@
         "qualifying_multiplier": null, 
         "base_multiplier": 150, 
         "minimum_miles": 750, 
-        "start_date": null
+        "start_date": "2011-02-01"
     }
 },
 {
