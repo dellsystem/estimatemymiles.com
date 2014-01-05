@@ -13,18 +13,7 @@ class Alliance(models.Model):
         return settings.STATIC_URL + 'img/alliance/' + self.slug + '.png'
 
 
-class AirlineManager(models.Manager):
-    def get_traveling(self):
-        """
-        Returns all airlines with associated fare classes (which are associated
-        with MileageMultiplier objects).
-        """
-        return self.annotate(num=models.Count('fareclass')) \
-            .filter(num__gt=0)
-
-
 class Airline(models.Model):
-    objects = AirlineManager()
     name = models.CharField(max_length=100)
     short_code = models.CharField(max_length=2, primary_key=True)
     alliance = models.ForeignKey(Alliance, null=True, blank=True)
