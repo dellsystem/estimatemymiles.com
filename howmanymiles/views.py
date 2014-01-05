@@ -7,7 +7,7 @@ from howmanymiles.models import Airline, Alliance
 
 def home(request):
     context = {
-        'airlines': Airline.objects.all(),
+        'alliances': Alliance.objects.all(),
     }
 
     return render(request, 'home.html', context)

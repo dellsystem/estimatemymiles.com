@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-<ul class="airline-grid">
-    {% for airline in airlines %}<li>
-        <img src="{{ airline.get_image_url }}" />
-    </li>{% endfor %}
-</ul>
+{% for alliance in alliances %}
+    <h1>{{ alliance }}</h2>
+
+    <ul class="airline-grid">
+        {% for airline in alliance.airline_set.all %}<li>
+            <img src="{{ airline.get_image_url }}" />
+        </li>{% endfor %}
+    </ul>
+{% endfor %}
 {% endblock %}
