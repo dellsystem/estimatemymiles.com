@@ -1,0 +1,5 @@
+<ul class="airline-grid">
+    {% for airline in airlines %}<li>
+        <img src="{{ airline.get_image_url }}" />
+    </li>{% endfor %}
+</ul>

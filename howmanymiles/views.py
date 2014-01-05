@@ -8,6 +8,7 @@ from howmanymiles.models import Airline, Alliance
 def home(request):
     context = {
         'alliances': Alliance.objects.all(),
+        'non_allied_airlines': Airline.objects.filter(alliance__isnull=True),
     }
 
     return render(request, 'home.html', context)
