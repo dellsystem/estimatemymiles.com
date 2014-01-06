@@ -15,5 +15,7 @@ urlpatterns = patterns('howmanymiles.views',
         name='contribute'),
     url(r'^admin/', include(admin.site.urls)),
     #url(r'^api/', include('howmanymiles.api.urls')),
-    url(r'^airline/(?P<pk>\w{2})/$', 'airline_detail', name='airline_detail')
+    url(r'^airline/(?P<pk>\w{2})/$', 'airline_detail', name='airline_detail'),
+    url(r'^airline/(?P<earning_pk>\w{2})/(?P<operating_pk>\w{2})/',
+        'operating_rules', name='operating_rules'),
 )
