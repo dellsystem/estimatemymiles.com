@@ -15,13 +15,15 @@ def home(request):
 
 def airline_detail(request, pk):
     airline = get_object_or_404(Airline, pk=pk)
-    allied_earning_partners = set()
-    other_earning_partners = set()
+    allied_earners, other_earners = airline.get_earning_partners()
+    allied_operators, other_operators = airline.get_operating_partners()
 
     context = {
         'airline': airline,
-        'allied_earning_partners': allied_earning_partners,
-        'other_earning_partners': other_earning_partners,
+        'allied_earners': allied_earners,
+        'other_earners': other_earners,
+        'allied_operators': allied_operators,
+        'other_operators': other_operators,
     }
 
     return render(request, 'airline/detail.html', context)

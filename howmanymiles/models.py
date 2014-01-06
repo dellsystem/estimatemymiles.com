@@ -64,6 +64,28 @@ class Airline(models.Model):
     def get_image_url(self):
         return settings.STATIC_URL + 'img/airline/' + self.pk + '.png'
 
+    def get_earning_partners(self):
+        """
+        i.e., airlines we can earn with if we travel with this airline. Returns
+        a tuple containing (allied_partners, other_partners).
+        """
+        partner_pks = self.operating_rules.values('earning_airline').distinct()
+        partner_pks = [d['earning_airline'] for d in partner_pks]
+        partners = Airline.objects.filter(pk__in=partner_pks)
+        return (partners.filter(alliance=self.alliance),
+                partners.exclude(alliance=self.alliance))
+
+    def get_operating_partners(self):
+        """
+        i.e., airlines we can travel with if we wish to earn with this airline.
+        Returns a tuple containing (allied_partners, other_partners).
+        """
+        partner_pks = self.earning_rules.values('operating_airline').distinct()
+        partner_pks = [d['operating_airline'] for d in partner_pks]
+        partners = Airline.objects.filter(pk__in=partner_pks)
+        return (partners.filter(alliance=self.alliance),
+                partners.exclude(alliance=self.alliance))
+
 
 class EliteBonus(models.Model):
     earning_airline = models.ForeignKey(Airline, related_name='bonuses')
