@@ -1,5 +1,7 @@
 <ul class="airline-grid">
     {% for airline in airlines %}<li>
-        <img src="{{ airline.get_image_url }}" />
+        <a href="{{ airline.get_absolute_url }}">
+            <img src="{{ airline.get_image_url }}" />
+        </a>
     </li>{% endfor %}
 </ul>

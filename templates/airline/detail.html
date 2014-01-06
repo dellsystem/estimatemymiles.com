@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="center-align">
+    <img src="{{ airline.get_image_url }}" />
+</div>
+
+<h1>Traveling with {{ airline.name }}</h1>
+<p>If you're traveling with {{ airline.name }}, you can earn with the following
+airlines:</p>
+
+{% if airline.alliance %}
+    <h2>Other {{ airline.alliance }} airlines</h2>
+{% endif %}
+{% endblock %}

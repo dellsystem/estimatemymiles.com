@@ -1,4 +1,3 @@
-import string
 
 from django.shortcuts import render, get_object_or_404
 
@@ -14,24 +13,15 @@ def home(request):
     return render(request, 'home.html', context)
 
 
-def progress(request):
-    context = {
-        'alliances': Alliance.objects.all(),
-    }
-
-    return render(request, 'progress.html', context)
-
-
-def progress_detail(request, operating, earning):
-    operating = get_object_or_404(Airline, pk=operating)
-    earning = get_object_or_404(Airline, pk=earning)
-    fare_classes = operating.fare_classes.filter(earning_airline=earning)
+def airline_detail(request, pk):
+    airline = get_object_or_404(Airline, pk=pk)
+    allied_earning_partners = set()
+    other_earning_partners = set()
 
     context = {
-        'operating': operating,
-        'earning': earning,
-        'fare_classes': fare_classes,
-        'class_codes': string.uppercase,
+        'airline': airline,
+        'allied_earning_partners': allied_earning_partners,
+        'other_earning_partners': other_earning_partners,
     }
 
-    return render(request, 'progress_detail.html', context)
+    return render(request, 'airline/detail.html', context)

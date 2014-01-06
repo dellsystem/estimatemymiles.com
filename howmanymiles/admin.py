@@ -1,18 +1,24 @@
 from django.contrib import admin
 
-from howmanymiles.models import Alliance, Airline, FareClass, MileageMultiplier
+from howmanymiles.models import *
 
 
-class MileageMultiplierInline(admin.StackedInline):
-    model = MileageMultiplier
-    extra = 0
+class EliteBonusAdmin(admin.ModelAdmin):
+    list_display = ('elite_level', 'earning_airline', 'bonus_percentage')
 
 
-class FareClassAdmin(admin.ModelAdmin):
-    inlines = [MileageMultiplierInline]
-    list_display = ('operating_airline', 'class_code', 'earning_airline')
+class AccrualRuleAdmin(admin.ModelAdmin):
+    list_display = ('fare_name', 'fare_classes', 'operating_airline',
+        'earning_airline', 'start_date', 'end_date', 'origin', 'destination')
+
+
+class LocationAdmin(admin.ModelAdmin):
+    list_display = ('name', 'resolution')
 
 
 admin.site.register(Alliance)
 admin.site.register(Airline)
-admin.site.register(FareClass, FareClassAdmin)
+admin.site.register(EliteBonus, EliteBonusAdmin)
+admin.site.register(MileageInfoSource)
+admin.site.register(Location, LocationAdmin)
+admin.site.register(AccrualRule, AccrualRuleAdmin)
