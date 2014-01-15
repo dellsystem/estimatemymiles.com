@@ -1,5 +1,16 @@
+from itertools import chain
+
 from django.conf import settings
+from django.core.urlresolvers import reverse
 from django.db import models
+
+
+LOCATION_RESOLUTIONS = (
+    (1, 'Region (supernational)'),
+    (2, 'Country'),
+    (3, 'City'),
+    (4, 'Airport'),
+)
 
 
 class Alliance(models.Model):
@@ -13,18 +24,7 @@ class Alliance(models.Model):
         return settings.STATIC_URL + 'img/alliance/' + self.slug + '.png'
 
 
-class AirlineManager(models.Manager):
-    def get_traveling(self):
-        """
-        Returns all airlines with associated fare classes (which are associated
-        with MileageMultiplier objects).
-        """
-        return self.annotate(num=models.Count('fareclass')) \
-            .filter(num__gt=0)
-
-
 class Airline(models.Model):
-    objects = AirlineManager()
     name = models.CharField(max_length=100)
     short_code = models.CharField(max_length=2, primary_key=True)
     alliance = models.ForeignKey(Alliance, null=True, blank=True)
@@ -33,9 +33,21 @@ class Airline(models.Model):
     qualifying_miles_name = models.CharField(max_length=100, help_text="e.g., "
         "'Altitude' for Air Canada. Leave empty if none.", null=True,
         blank=True)
+    uses_segments = models.BooleanField()
+    comments = models.TextField(blank=True, null=True, help_text="Any "
+        "additional comments about mileage accumulation with this airline.")
+
+    class Meta:
+        ordering = ['name']
 
     def __unicode__(self):
         return "%s (%s)" % (self.name, self.short_code)
+
+    def get_absolute_url(self):
+        return reverse('airline_detail', args=[self.pk])
+
+    def get_ff_program_name(self):
+        return "%s %s" % (self.name, self.ff_program)
 
     def get_qualifying_miles_name(self):
         if self.qualifying_miles_name:
@@ -55,55 +67,99 @@ class Airline(models.Model):
     def get_image_url(self):
         return settings.STATIC_URL + 'img/airline/' + self.pk + '.png'
 
+    def get_earning_partners(self):
+        """
+        i.e., airlines we can earn with if we travel with this airline. Returns
+        a tuple containing (allied_partners, other_partners).
+        """
+        partner_pks = self.operating_rules.values('earning_airline').distinct()
+        partner_pks = [d['earning_airline'] for d in partner_pks]
+        partners = Airline.objects.filter(pk__in=partner_pks)
+        return (partners.filter(alliance=self.alliance),
+                partners.exclude(alliance=self.alliance))
 
-class FareClass(models.Model):
-    airline = models.ForeignKey(Airline)
-    class_code = models.CharField(max_length=1)
+    def get_operating_partners(self):
+        """
+        i.e., airlines we can travel with if we wish to earn with this airline.
+        Returns a tuple containing (allied_partners, other_partners).
+        """
+        partner_pks = self.earning_rules.values('operating_airline').distinct()
+        partner_pks = [d['operating_airline'] for d in partner_pks]
+        partners = Airline.objects.filter(pk__in=partner_pks)
+        return (partners.filter(alliance=self.alliance),
+                partners.exclude(alliance=self.alliance))
+
+    def get_alliance_id(self):
+        if self.alliance:
+            return self.alliance.id
+        else:
+            return 0
+
+    def get_partners_list(self):
+        # TODO: fix this
+        partners = []
+        alliance_partners, other_partners = self.get_operating_partners()
+        for airline in chain(alliance_partners, other_partners):
+            partners.append("'%s'" % airline.pk)
+
+        return '[' + ','.join(partners) + ']'
+
+
+
+class EliteBonus(models.Model):
+    earning_airline = models.ForeignKey(Airline, related_name='bonuses')
+    elite_level = models.CharField(max_length=50)
+    bonus_percentage = models.IntegerField(help_text="Based on the number "
+        "of miles flown, including minimums.")
 
     class Meta:
-        verbose_name_plural = 'Fare classes'
-        unique_together = ('airline', 'class_code')
+        verbose_name_plural = 'Elite bonuses'
+
+
+class MileageInfoSource(models.Model):
+    operating_airline = models.ForeignKey(Airline,
+        related_name='operating_sources')
+    earning_airline = models.ForeignKey(Airline,
+        related_name='earning_sources')
+    link = models.URLField()
+
+    class Meta:
+        unique_together = ('operating_airline', 'earning_airline')
 
     def __unicode__(self):
-        return "%s - %s" % (self.airline, self.class_code)
+        return "%s, earning with %s" % (self.operating_airline,
+            self.earning_airline)
 
 
-class MileageMultiplier(models.Model):
-    earning_airline = models.ForeignKey(Airline)
-    fare_class = models.ForeignKey(FareClass)
-    restrictions = models.TextField(blank=True, null=True)
-    accrual_factor = models.IntegerField(help_text="As a percentage.")
-    minimum_miles = models.IntegerField(default=0)
+class Location(models.Model):
+    name = models.CharField(max_length=50)
+    resolution = models.IntegerField(choices=LOCATION_RESOLUTIONS)
+
+    def __unicode__(self):
+        return self.name
+
+
+class AccrualRule(models.Model):
+    operating_airline = models.ForeignKey(Airline,
+        related_name='operating_rules')
+    earning_airline = models.ForeignKey(Airline, related_name='earning_rules')
+    fare_classes = models.CharField(help_text="The fare classes that this rule "
+        "applies to, with no separator. e.g., JCDZ.", max_length=26)
+    award_miles_percentage = models.IntegerField()
+    tier_miles_percentage = models.IntegerField()
+    num_segments = models.DecimalField(max_digits=2, decimal_places=1,
+        help_text="Usually 1.", default=1, verbose_name="Segments")
+    standard_minimum = models.IntegerField(default=0, help_text="The minimum "
+        "number of miles earned by regular (non-elite) members.")
+    elite_minimum = models.IntegerField(default=0, help_text="The minimum "
+        "number of miles aerned by elite members.")
+    start_date = models.DateField(null=True, blank=True)
+    end_date = models.DateField(null=True, blank=True)
+    other_restrictions = models.TextField(null=True, blank=True)
+    origin = models.ForeignKey(Location, related_name='+', null=True,
+        blank=True)
+    destination = models.ForeignKey(Location, related_name='+', null=True,
+        blank=True)
     fare_name = models.CharField(max_length=100, help_text="The human-readable "
         "name for the fare class, according to the earning airline. E.g., "
         "'Economy class' or 'Business class'.", null=True, blank=True)
-    qualifying_miles = models.IntegerField(help_text="As a percentage. Leave "
-        "empty if the airline doesn't have a special elite program (e.g., "
-        "Aegean).", blank=True, null=True)
-    qualifying_segments = models.DecimalField(max_digits=2, decimal_places=1,
-        help_text="Usually 1. Leave empty if the airline doesn't have a "
-        "special elite program (e.g., Aegean).", blank=True, null=True)
-
-    def __unicode__(self):
-        return "%s, earning with %s (%d%%)" % (self.fare_class,
-                                               self.earning_airline,
-                                               self.accrual_factor)
-
-    def get_num_miles(self, base_miles, is_qualifying=False):
-        factor = self.qualifying_miles if is_qualifying else self.accrual_factor
-        return max(base_miles * factor / 100.0, self.minimum_miles)
-
-    def get_qualifying_miles(self):
-        if self.qualifying_miles is not None:
-            return "%d%%" % self.qualifying_miles,
-        else:
-            return 'N/A'
-
-    def get_qualifying_segments(self):
-        if self.qualifying_segments is not None:
-            return str(self.qualifying_segments)
-        else:
-            return 'N/A'
-
-    def get_accrual_factor(self):
-        return "%d%%" % self.accrual_factor

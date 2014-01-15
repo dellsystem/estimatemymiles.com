@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="center-align">
+    <img src="{{ earning.get_image_url }}" alt="{{ earning }}" id="top" />
+    <h1>Earning rules for {{ earning }}
+        <small>Traveling with {{ operating }}</small>
+    </h1>
+    <img src="{{ operating.get_image_url }}" alt="{{ operating }}" id="top" />
+</div>
+
+<h3>Notes</h3>
+<ul>
+    <li>
+        {{ earning.name }} {% if earning.uses_segments %}allows{% else %}
+        <strong>does not allow</strong>{% endif %} elite qualification using
+        segments.
+    </li>
+    {% if rules_source %}
+    <li><strong>Source:</strong> {{ rules_source.link|urlize }}</li>
+    {% endif %}
+</ul>
+
+<div class="center-align">
+    <br />
+    <p>
+        Jump to:
+        {% for letter, _ in fare_classes %}
+            <a href="#fare-class-{{ letter }}">{{ letter }}</a>
+            {% if not forloop.last %} / {% endif %}
+        {% endfor %}
+    </p>
+</div>
+
+{% for letter, rules in fare_classes %}
+    <h2 id="fare-class-{{ letter }}">
+        <a href="#fare-class-{{ letter }}">{{ letter }}</a>
+        <small><a href="#top">Back to top</a></small>
+    </h2>
+
+    {% if rules %}
+    <table>
+        <thead>
+            <tr>
+                <th width="10%">Fare name</th>
+                <th width="9%">Origin</th>
+                <th width="9%">Destination</th>
+                <th width="9%">Start date</th>
+                <th width="9%">End date</th>
+                <th width="9%">Award miles</th>
+                <th width="9%">Tier miles</th>
+                {% if earning.uses_segments %}
+                <th width="9%">Segments</th>
+                {% endif %}
+                <th width="9%">Standard minimum</th>
+                <th width="9%">Elite minimum</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for rule in rules %}
+                <tr>
+                    <td>{{ rule.fare_name|default:"--" }}</td>
+                    <td>{{ rule.origin|default:"Any" }}</td>
+                    <td>{{ rule.destination|default:"Any" }}</td>
+                    <td>{{ rule.start_date|default:"--" }}</td>
+                    <td>{{ rule.end_date|default:"--" }}</td>
+                    <td>{{ rule.award_miles_percentage }}%</td>
+                    <td>{{ rule.tier_miles_percentage }}%</td>
+                    {% if earning.uses_segments %}
+                    <td>{{ rule.num_segments }}</td>
+                    {% endif %}
+                    <td>{{ rule.standard_minimum }}</td>
+                    <td>{{ rule.elite_minimum }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No rules exist for this fare class! It may not exist, or it may not earn
+    any miles, or we may just not have information for it.</p>
+    {% endif %}
+{% endfor %}
+{% endblock %}

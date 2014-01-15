@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>View progress</h1>
+
+{% for alliance in alliances %}
+<h2>{{ alliance }}</h2>
+{% with airlines=alliance.airline_set.all %}
+{% if airlines.count %}
+<table class="progress">
+    <thead>
+        <th>Earning&nbsp;&rarr;<br />Operating&nbsp;&darr;</th>
+        {% for earning in airlines %}
+            <th title="{{ earning.name }}">{{ earning.pk }}</th>
+        {% endfor %}
+    </thead>
+    <tbody>
+        {% for operating in airlines %}
+            <tr>
+            <th title="{{ operating.name }}">{{ operating.pk }}</th>
+            {% for earning, status, count in operating.get_partner_statuses %}
+                <td class="{{ status }}" title="{{ count }}">
+                    <a href="
+                        {% url 'progress_detail' operating.pk earning.pk %}
+                    ">&nbsp;</a>
+                </td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No data for this alliance.</p>
+{% endif %}
+{% endwith %}
+
+{% endfor %}
+{% endblock %}

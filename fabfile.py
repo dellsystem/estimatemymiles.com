@@ -19,3 +19,9 @@ def sync():
 
 def add():
     local("python manage.py add_mileage_multiplier")
+
+def db():
+    local("python manage.py syncdb")
+
+def sh():
+    local("python manage.py shell")

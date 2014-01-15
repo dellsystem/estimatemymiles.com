@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="center-align">
+    <img src="{{ airline.get_image_url }}" />
+</div>
+
+<h1>Traveling with {{ airline.name }}</h1>
+<p>If you're traveling with {{ airline.name }}, you can earn with the following
+airlines:</p>
+
+{% if airline.alliance %}
+<h2>Other {{ airline.alliance }} airlines</h2>
+
+{% include 'airline_grid.html' with airlines=allied_earners url='earning' %}
+{% endif %}
+
+<h2>Non-alliance airlines</h2>
+
+{% include 'airline_grid.html' with airlines=other_earners url='earning' %}
+
+<br />
+
+<h1>Earning with {{ airline.name }}</h1>
+<p>If you wish to earn miles with {{ airline.name }}, you can travel with the
+following airlines:</p>
+
+{% if airline.alliance %}
+<h2>Other {{ airline.alliance }} airlines</h2>
+
+{% include 'airline_grid.html' with airlines=allied_operators url='operating' %}
+{% endif %}
+
+<h2>Non-alliance airlines</h2>
+
+{% include 'airline_grid.html' with airlines=other_operators url='operating' %}
+
+<hr />
+
+<p>If the airline you're interested in doesn't appear on this page, then either
+it's not an earning partner for {{ airline.name }}, or we just don't have data
+for the earning rules.</p>
+
+<p><a href="{% url 'contribute' %}">Interested in contributing to this
+project?</a></p>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% if airlines.count %}
+<ul class="airline-grid">
+    {% for a in airlines %}<li>
+        {% if not url %}
+        <a href="{{ a.get_absolute_url }}">
+        {% else %}
+            {# There should be an airline variable in the parent context #}
+            {% if url == 'earning' %}
+                <a href="{% url 'operating_rules' a.pk airline.pk %}">
+            {% else %}
+                <a href="{% url 'operating_rules' airline.pk a.pk %}">
+            {% endif %}
+        {% endif %}
+            <img src="{{ a.get_image_url }}" />
+        </a>
+    </li>{% endfor %}
+</ul>
+{% else %}
+<p>N/A</p>
+{% endif %}

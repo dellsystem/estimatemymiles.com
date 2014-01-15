@@ -1,53 +1,13 @@
 {% extends "base.html" %}
 
-{% block js %}<script src="{{ STATIC_URL }}js/stuff.js"></script>{% endblock %}
+{% block js %}
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
+<script src="{{ STATIC_URL }}js/tool.js"></script>
+{% endblock %}
 
 {% block content %}
-<form id="estimator">
-    <div id="traveling-airline">
-        <h2>The airline I'm traveling with is ...</h2>
-        <ul class="airline-grid">
-            {% for airline in traveling_airlines %}<li data-airline="{{ airline.pk }}">
-                <img src="{{ airline.get_image_url }}" alt="{{ airline }}"
-                     title="{{ airline }}" />
-            </li>{% endfor %}
-        </ul>
-    </div>
-
-    <div id="fare-class" class="hidden">
-        <h2>The fare class is ...</h2>
-        <ul></ul>
-    </div>
-
-    <div id="earning-airline" class="hidden">
-        <h2>The airline I want to earn with is ...</h2>
-        <ul class="airline-grid">
-            {% for airline in all_airlines %}<li data-airline="{{ airline.pk }}">
-                <img src="{{ airline.get_image_url }}" alt="{{ airline }}"
-                     title="{{ airline }}" />
-            </li>{% endfor %}
-        </ul>
-    </div>
-
-    <div id="mileage-table" class="hidden">
-        <h2>
-            Mileage earning rules for
-            <span id="frequent-flyer-program"></span>:
-        </h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Fare name</th>
-                    <th>Miles earned</th>
-                    <th>Minimum miles</th>
-                    <th id="qualifying-miles"></th>
-                    <th id="qualifying-segments"></th>
-                    <th>Restrictions</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
-</form>
+<p class="caption">
+    <a href="{% url 'about' %}">Learn about this project &raquo;</a>
+</p>
+{% include "tool.html" %}
 {% endblock %}

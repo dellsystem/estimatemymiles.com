@@ -1,0 +1,130 @@
+<div ng-controller="ToolCtrl" ng-app="tools">
+    <h2>Which alliance are you interested in?</h2>
+    <div>
+        <ul class="alliance-grid">
+            {% for alliance in alliances %}<li
+                ng-class="(alliance === '{{ alliance.id }}') ? 'selected' : ''">
+            <label>
+                <img src="{{ alliance.get_image_url }}" />
+                <input type="radio" ng-model="alliance"
+                       value="{{ alliance.id }}" class="hidden"
+                       ng-change="updateAlliance()" />
+            </label>
+            </li>{% endfor %}
+            <li ng-class="(alliance === '0') ? 'selected' : ''">
+                <label>
+                    No alliance
+                    <input type="radio" ng-model="alliance" value="0"
+                           class="hidden"
+                           ng-change="updateAlliance()" />
+                </label>
+            </li>
+        </ul>
+    </div>
+
+    <div ng-show="alliance !== null" id="choose-earning">
+        <h2>Which airline do you want to earn miles with?</h2>
+        <ul class="airline-grid">
+            {% for airline in airlines %}<li
+                ng-show="isAllianceVisible({{ airline.get_alliance_id }})"
+                ng-class="(earningAirline === '{{ airline.pk }}') ? 'selected': ''">
+                <label>
+                    <img src="{{ airline.get_image_url }}" />
+                    <input type="radio" ng-model="earningAirline"
+                           value="{{ airline.pk }}" class="hidden"
+                           ng-change="updateEarning({{ airline.get_partners_list }})" />
+                </label>
+            </li>{% endfor %}
+        </ul>
+    </div>
+
+    <div ng-show="earningAirline !== null" id="choose-operating">
+        <h2>Which airline do you want to travel with?</h2>
+        <p ng-show="earningPartners.length">
+            Tip: If the airline you want to travel with is not listed, then we
+            may simply not have any data for it. <a href="{% url 'contribute'
+            %}"> Help us add it!</a>
+        </p>
+        <p ng-hide="earningPartners.length">
+            We don't have data for earning with that airline! Please try another
+            one, or contribute that data yourself.
+        </p>
+        <ul class="airline-grid">
+            {% for airline in airlines %}<li
+                ng-show="isOperatingVisible('{{ airline.pk }}')"
+                ng-class="(operatingAirline === '{{ airline.pk }}') ?  'selected': ''">
+                <label>
+                    <img src="{{ airline.get_image_url }}" />
+                    <input type="radio" ng-model="operatingAirline"
+                           value="{{ airline.pk }}" class="hidden"
+                           ng-change="updateOperating()" />
+                </label>
+            </li>{% endfor %}
+        </ul>
+    </div>
+
+    <div ng-show="operatingAirline !== null" id="choose-fare-class">
+        <h2>Which fare class are you traveling in?</h2>
+        <p>
+            Tip: don't know what a fare class is, or how to find your fare
+            class?  <a href="{% url 'usage' %}">Read this.</a>
+        </p>
+        <ul class="fare-class-grid">
+            {% for fare_class in fare_classes %}
+            <li ng-class="(fareClass === '{{ fare_class }}') ? 'selected' : ''">
+                <label>
+                {{ fare_class }}
+                <input type="radio" ng-model="fareClass" class="hidden"
+                    value="{{ fare_class }}" ng-change="updateFareClass()" />
+                </label>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div ng-show="fareClass !== null" id="choose-rule">
+        <h2>Rules</h2>
+        <div ng-show="rules.length">
+            <br />
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fare name</th>
+                        <th>Origin</th>
+                        <th>Destination</th>
+                        <th>Start date</th>
+                        <th>End date</th>
+                        <th>Award miles</th>
+                        <th>Tier miles</th>
+                        <th>Segments</th>
+                        <th>Minimum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% verbatim %}
+                    <tr ng-repeat="rule in rules">
+                        <td>{{rule.fare_name}}</td>
+                        <td>{{rule.origin}}</td>
+                        <td>{{rule.destination}}</td>
+                        <td>{{rule.start_date}}</td>
+                        <td>{{rule.end_date}}</td>
+                        <td><strong>{{rule.award_miles_percentage}}%</strong></td>
+                        <td><strong>{{rule.tier_miles_percentage}}%</strong></td>
+                        <td>{{rule.num_segments}}</td>
+                        <td>
+                            {{rule.standard_minimum}}
+                            <span ng-show="rule.elite_minimum > rule.standard_minimum">
+                                ({{rule.elite_minimum}} for elites)
+                            </span>
+                        </td>
+                    </tr>
+                    {% endverbatim %}
+                </tbody>
+            </table>
+        </div>
+        <p ng-show="fareClass !== null && !rules.length">
+            There are no earning rules for this fare class! Either this fare
+            class doesn't accrue any miles, or we just don't have data for it.
+        </p>
+    </div>
+</div>
