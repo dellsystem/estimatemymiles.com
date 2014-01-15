@@ -1,8 +1,5 @@
-<hr id="tool" />
-
 <div ng-controller="ToolCtrl" ng-app="tools">
-    <h2>The tool</h2>
-    <h3>Which alliance are you interested in?</h3>
+    <h2>Which alliance are you interested in?</h2>
     <div>
         <ul class="alliance-grid">
             {% for alliance in alliances %}<li
@@ -26,7 +23,7 @@
     </div>
 
     <div ng-show="alliance !== null" id="choose-earning">
-        <h3>Which airline do you want to earn miles with?</h3>
+        <h2>Which airline do you want to earn miles with?</h2>
         <ul class="airline-grid">
             {% for airline in airlines %}<li
                 ng-show="isAllianceVisible({{ airline.get_alliance_id }})"
@@ -42,11 +39,11 @@
     </div>
 
     <div ng-show="earningAirline !== null" id="choose-operating">
-        <h3>Which airline do you want to earn miles with?</h3>
+        <h2>Which airline do you want to travel with?</h2>
         <p ng-show="earningPartners.length">
-            Tip: If the airline you want to earn with is not listed, then we may
-            simply not have any data for it. <a href="{% url 'contribute' %}">
-            Help us add it!</a>
+            Tip: If the airline you want to travel with is not listed, then we
+            may simply not have any data for it. <a href="{% url 'contribute'
+            %}"> Help us add it!</a>
         </p>
         <p ng-hide="earningPartners.length">
             We don't have data for earning with that airline! Please try another
@@ -67,7 +64,7 @@
     </div>
 
     <div ng-show="operatingAirline !== null" id="choose-fare-class">
-        <h3>Which fare class are you traveling in?</h3>
+        <h2>Which fare class are you traveling in?</h2>
         <p>
             Tip: don't know what a fare class is, or how to find your fare
             class?  <a href="{% url 'usage' %}">Read this.</a>
@@ -86,7 +83,7 @@
     </div>
 
     <div ng-show="fareClass !== null" id="choose-rule">
-        <h3>Rules</h3>
+        <h2>Rules</h2>
         <div ng-show="rules.length">
             <br />
             <table>
