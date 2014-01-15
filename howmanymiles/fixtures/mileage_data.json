@@ -252,6 +252,18 @@
     }
 },
 {
+    "pk": "EI", 
+    "model": "howmanymiles.airline", 
+    "fields": {
+        "uses_segments": false, 
+        "alliance": null, 
+        "name": "Aer Lingus", 
+        "qualifying_miles_name": "", 
+        "comments": "", 
+        "ff_program": "Gold Circle Club"
+    }
+},
+{
     "pk": "ET", 
     "model": "howmanymiles.airline", 
     "fields": {
@@ -831,6 +843,15 @@
     }
 },
 {
+    "pk": 4, 
+    "model": "howmanymiles.mileageinfosource", 
+    "fields": {
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "link": "http://www.united.com/CMS/en-US/marketing/custcomm/promotions/Pages/AirlinePartnerDetails.aspx?ItemId=438"
+    }
+},
+{
     "pk": 1, 
     "model": "howmanymiles.location", 
     "fields": {
@@ -884,6 +905,78 @@
     "fields": {
         "resolution": 1, 
         "name": "Europe"
+    }
+},
+{
+    "pk": 9, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 1, 
+        "name": "North America"
+    }
+},
+{
+    "pk": 10, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 2, 
+        "name": "Ireland"
+    }
+},
+{
+    "pk": 11, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 3, 
+        "name": "London"
+    }
+},
+{
+    "pk": 12, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 3, 
+        "name": "Dublin"
+    }
+},
+{
+    "pk": 13, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 3, 
+        "name": "Belfast"
+    }
+},
+{
+    "pk": 14, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 3, 
+        "name": "Shannon"
+    }
+},
+{
+    "pk": 15, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 3, 
+        "name": "Cork"
+    }
+},
+{
+    "pk": 16, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 3, 
+        "name": "Manchester"
+    }
+},
+{
+    "pk": 17, 
+    "model": "howmanymiles.location", 
+    "fields": {
+        "resolution": 3, 
+        "name": "Birmingham"
     }
 },
 {
@@ -1883,6 +1976,186 @@
         "earning_airline": "A3", 
         "operating_airline": "LH", 
         "start_date": "2014-01-01", 
+        "elite_minimum": 250
+    }
+},
+{
+    "pk": 51, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": null, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 150, 
+        "standard_minimum": 0, 
+        "other_restrictions": "", 
+        "destination": null, 
+        "fare_classes": "CDJ", 
+        "fare_name": "Business", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2012-11-01", 
+        "elite_minimum": 0
+    }
+},
+{
+    "pk": 52, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 9, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 75, 
+        "standard_minimum": 0, 
+        "other_restrictions": "", 
+        "destination": 10, 
+        "fare_classes": "YBHKMVN", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2012-11-01", 
+        "elite_minimum": 0
+    }
+},
+{
+    "pk": 53, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 9, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 50, 
+        "standard_minimum": 0, 
+        "other_restrictions": "", 
+        "destination": 10, 
+        "fare_classes": "LXS", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2012-11-01", 
+        "elite_minimum": 0
+    }
+},
+{
+    "pk": 54, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 11, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 0, 
+        "standard_minimum": 250, 
+        "other_restrictions": "", 
+        "destination": 12, 
+        "fare_classes": "YBHKMVNLXS", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2012-11-01", 
+        "elite_minimum": 250
+    }
+},
+{
+    "pk": 55, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 11, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 0, 
+        "standard_minimum": 250, 
+        "other_restrictions": "", 
+        "destination": 13, 
+        "fare_classes": "YBHKMVNLXS", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2012-11-01", 
+        "elite_minimum": 250
+    }
+},
+{
+    "pk": 56, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 11, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 0, 
+        "standard_minimum": 250, 
+        "other_restrictions": "", 
+        "destination": 14, 
+        "fare_classes": "YBHKMVNLXS", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2013-01-17", 
+        "elite_minimum": 250
+    }
+},
+{
+    "pk": 57, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 11, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 0, 
+        "standard_minimum": 250, 
+        "other_restrictions": "", 
+        "destination": 15, 
+        "fare_classes": "YBHKMVNLXS", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2012-11-01", 
+        "elite_minimum": 250
+    }
+},
+{
+    "pk": 58, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 12, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 0, 
+        "standard_minimum": 250, 
+        "other_restrictions": "", 
+        "destination": 16, 
+        "fare_classes": "YBHKMVNLXS", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2013-01-17", 
+        "elite_minimum": 250
+    }
+},
+{
+    "pk": 59, 
+    "model": "howmanymiles.accrualrule", 
+    "fields": {
+        "origin": 12, 
+        "num_segments": "0", 
+        "end_date": null, 
+        "award_miles_percentage": 0, 
+        "standard_minimum": 250, 
+        "other_restrictions": "", 
+        "destination": 17, 
+        "fare_classes": "YBHKMVNLXS", 
+        "fare_name": "Economy", 
+        "tier_miles_percentage": 0, 
+        "earning_airline": "UA", 
+        "operating_airline": "EI", 
+        "start_date": "2013-01-17", 
         "elite_minimum": 250
     }
 }
