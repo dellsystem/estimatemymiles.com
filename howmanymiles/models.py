@@ -1,3 +1,5 @@
+from itertools import chain
+
 from django.conf import settings
 from django.core.urlresolvers import reverse
 from django.db import models
@@ -86,6 +88,22 @@ class Airline(models.Model):
         partners = Airline.objects.filter(pk__in=partner_pks)
         return (partners.filter(alliance=self.alliance),
                 partners.exclude(alliance=self.alliance))
+
+    def get_alliance_id(self):
+        if self.alliance:
+            return self.alliance.id
+        else:
+            return 0
+
+    def get_partners_list(self):
+        # TODO: fix this
+        partners = []
+        alliance_partners, other_partners = self.get_operating_partners()
+        for airline in chain(alliance_partners, other_partners):
+            partners.append("'%s'" % airline.pk)
+
+        return '[' + ','.join(partners) + ']'
+
 
 
 class EliteBonus(models.Model):

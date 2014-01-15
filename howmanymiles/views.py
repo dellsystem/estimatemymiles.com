@@ -1,17 +1,30 @@
+import json
 import string
 
+from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
 
-from howmanymiles.models import Airline, Alliance, MileageInfoSource
+from howmanymiles.models import Airline, Alliance, MileageInfoSource, \
+                                AccrualRule
 
 
 def home(request):
     context = {
         'alliances': Alliance.objects.all(),
-        'non_allied_airlines': Airline.objects.filter(alliance__isnull=True),
+        'airlines': Airline.objects.all(),
+        'fare_classes': string.uppercase,
     }
 
     return render(request, 'home.html', context)
+
+
+def database(request):
+    context = {
+        'alliances': Alliance.objects.all(),
+        'non_allied_airlines': Airline.objects.filter(alliance__isnull=True),
+    }
+
+    return render(request, 'database.html', context)
 
 
 def airline_detail(request, pk):
@@ -56,3 +69,26 @@ def operating_rules(request, earning_pk, operating_pk):
     }
 
     return render(request, 'airline/rules.html', context)
+
+
+def rules_api(request, earning_pk, operating_pk, fare_class):
+    accrual_rules = AccrualRule.objects.filter(earning_airline=earning_pk,
+        operating_airline=operating_pk, fare_classes__contains=fare_class)
+    data = []
+
+    # This should be templated
+    for rule in accrual_rules:
+        data.append({
+            'fare_name': rule.fare_name,
+            'origin': rule.origin.name if rule.origin else 'Any',
+            'destination': rule.destination.name if rule.origin else 'Any',
+            'start_date': str(rule.start_date or '--'),
+            'end_date': str(rule.end_date or '--'),
+            'award_miles_percentage': rule.award_miles_percentage,
+            'tier_miles_percentage': rule.award_miles_percentage,
+            'num_segments': str(rule.num_segments),
+            'standard_minimum': rule.standard_minimum,
+            'elite_minimum': rule.elite_minimum,
+        })
+
+    return HttpResponse(json.dumps(data), content_type="application/json")

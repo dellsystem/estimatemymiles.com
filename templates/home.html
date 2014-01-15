@@ -1,15 +1,56 @@
 {% extends "base.html" %}
 
+{% block js %}
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
+<script src="{{ STATIC_URL }}js/tool.js"></script>
+{% endblock %}
+
 {% block content %}
-{% for alliance in alliances %}
-    <h1>{{ alliance }}</h2>
+<h2>What is this site?</h2>
 
-    {% include 'airline_grid.html' with airlines=alliance.airline_set.all %}
-{% endfor %}
+<p class="caption">
+    <a href="#tool" class="skip-to">
+        I already know all this, take me to the tool! &darr;
+    </a>
+</p>
 
-<h1>Non-allied airlines
-    <small>Airlines that are not part of any major alliance</small>
+<p>
+<strong>estimatemymiles.com</strong> is a tool that allows frequent flyers to
+make informed decisions about which flight to take in order to maximise the
+mileage accrued.  Whether you're saving miles for a round-the-world trip, or
+trying to meet an elite qualification threshold, or simply want to optimise your
+flight plans to earn more miles, <strong>estimatemymiles.com</strong> can help
+you get there.
+</p>
 
-    {% include 'airline_grid.html' with airlines=non_allied_airlines %}
-</h1>
+<h2>Why is estimatemymiles.com needed?</h2>
+<p>
+If you only ever fly and earn with a single airline, then your choices are
+pretty clear-cut, and this site is unlikely to help you. However, if you earn
+miles with an airline that has many earning partners, then the amount of choice
+you have increases exponentially. For example, if you earn with a Star Alliance
+airline, such as Air Canada, then you can accrue miles with that airline when
+you fly <em>any</em> Star Alliance airline.
+</p>
+<p>
+Sounds great, right? Well, it's not that simple. Each airline has their own set
+of rules for how many miles you'll accrue when flying on other airlines within
+the alliance, and these rules can depend on anything from the fare class, to the
+origin and destination, to the phase of the moon during your flight. (Actually,
+no airline does that last one. Yet.) These rules are usually displayed on the
+earning airline's website in the form of a chart, often with a multitude of
+footnotes that require quite a bit of intense scrutiny to be fully understood.
+What's more, if you earn with multiple airlines within an alliance, you'll have
+to investigate each airline's website separately if you want to know how many
+miles you'll earn for a particular flight with each airline.
+</p>
+<p>
+That's where <strong>estimatemymiles.com</strong> comes in. Not only do we store
+mileage accrual rules for multiple airlines (and their partners!) - eliminating
+the need to have 5 different tabs open as you compare charts - we simplify the
+lookup process to make it as easy as possible for users to understand each
+airline's accrual rules.
+</p>
+
+{% include "tool.html" %}
 {% endblock %}

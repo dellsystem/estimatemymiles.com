@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Browse the earning rules in our database.</p>
+
+{% for alliance in alliances %}
+    <h1>{{ alliance }}</h2>
+
+    {% include 'airline_grid.html' with airlines=alliance.airline_set.all %}
+{% endfor %}
+
+<h1>Non-allied airlines
+    <small>Airlines that are not part of any major alliance</small>
+
+    {% include 'airline_grid.html' with airlines=non_allied_airlines %}
+</h1>
+{% endblock %}

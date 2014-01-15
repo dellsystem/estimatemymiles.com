@@ -50,7 +50,7 @@ h2 {
     }
 }
 
-.grid(@width) {
+.grid(@height, @width) {
     list-style-type: none;
     margin: 15px 0;
 
@@ -59,9 +59,9 @@ h2 {
         box-sizing: border-box;
         text-align: center;
         display: inline-block;
-        height: @gridHeight;
+        height: @height;
         border: 5px solid @lightGrey;
-        line-height: @gridHeight - 10px;
+        line-height: @height - 10px;
         vertical-align: bottom;
         width: @width;
         margin: 10px;
@@ -73,15 +73,30 @@ h2 {
         &.selected {
             border-color: @lightBlue;
         }
+
+        label {
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
     }
 }
 
 .airline-grid {
-    .grid(230px);
+    .grid(@gridHeight, 230px);
 }
 
-#fare-class ul {
-    .grid(@gridHeight);
+.alliance-grid {
+    .grid(226px, 226px);
+
+    li img {
+        vertical-align: middle;
+    }
+}
+
+.fare-class-grid {
+    .grid(@gridHeight, @gridHeight);
 }
 
 table {
@@ -138,4 +153,9 @@ table {
 
 hr {
     margin: 25px 0;
+}
+
+.caption {
+    font-size: 1.5em;
+    text-align: center;
 }
